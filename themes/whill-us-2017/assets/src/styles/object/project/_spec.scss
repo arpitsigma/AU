@@ -1,0 +1,29 @@
+.p-spec {
+
+	&__btn {
+
+		@media #{$medium-up} {
+			display: inline-block;
+			padding-left: 30px;
+			padding-right: 30px;
+			margin: auto;
+			width: auto;
+		}
+
+		&::before {
+			content: '\f107';
+			@include fa();
+			font-size: 1.5em;
+			vertical-align: sub;
+			padding: 2px;
+			transition: transform 0.2s ease-out 0s;
+
+		}
+		&.is-active {
+			&::before {
+				transform: rotateZ(180deg);
+			}
+		}
+
+	}
+}

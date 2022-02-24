@@ -1,0 +1,32 @@
+.p-personal-ev {
+  
+  h2 {
+    font-family: "FF-DIN-Light", Verdana, Tahoma;
+  }
+  
+  p {
+    margin: 40px auto 20px;
+    
+    @media #{$medium-up} {
+			margin: 80px auto 20px;
+		}
+  }
+  
+  .c-grid__u {
+    position: relative;
+    
+    .content {
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 100%;
+    }
+    
+    p {
+      margin: 0;
+    }
+  }
+  
+}

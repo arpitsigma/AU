@@ -1,0 +1,44 @@
+.p-subscribe {
+	padding: 10px 20px;
+	text-align: center;
+
+	&__submit {
+		display: block;
+		width: 100%;
+	}
+
+	@media #{$medium-up} {
+		input.p-subscribe__input {
+			display: inline-block;
+			width: auto;
+			vertical-align: middle;
+		}
+
+		&__submit {
+			display: inline-block;
+			width: auto;
+		}
+	}
+
+}
+
+.subscription-bottom-wrapper {
+    font-size: 0;
+}
+
+.subscription-bottom {
+    border: 0;
+    width: 100%;
+    
+    @media #{$small-down} {
+        height: 275px;
+    }
+    
+    @media #{$medium-only}, #{$large-only} {
+        height: 160px;
+    }
+    
+    @media only screen and (min-width: 1200px) {
+        height: 70px;
+    }
+}

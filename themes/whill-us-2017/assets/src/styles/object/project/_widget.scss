@@ -1,0 +1,17 @@
+.p-widget {
+	margin-bottom: 40px;
+	font-size: 0.9em;
+	&__title {
+		margin-top: 0;
+		font-size: 1.05em;
+	}
+
+	&__article {
+		margin-top: 1em;
+
+	}
+	&__article-title {
+		font-size: 1em;
+		margin-top: 0;
+	}
+}

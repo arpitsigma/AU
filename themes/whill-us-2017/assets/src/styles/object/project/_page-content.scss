@@ -1,0 +1,154 @@
+.p-page-content {
+	margin: 20px auto 40px;
+	max-width: $main-max-width;
+  
+  @media #{$small-down} {
+    
+    h2 {
+      text-align: center;
+    }
+    
+    p {
+      /*text-align: justify;*/
+      
+      &.p-jumbotron__small-text {
+        text-align: left;
+      }
+    }
+  }
+  
+	@media #{$medium-up} {
+		margin: 50px auto;
+	}
+  
+  &_half {
+    margin: 20px auto;
+    
+    h3 {
+      margin-top: 0;
+    }
+  }
+  
+  &_double-padding {
+    margin: 40px auto;
+    
+    h3 {
+      margin-top: 0;
+    }
+    
+    @media #{$medium-up} {
+      margin: 80px auto 100px;
+    }
+  }
+  
+  &_top-double-padding {
+    margin-top: 40px;
+    
+    @media #{$medium-up} {
+      margin-top: 80px;
+    }
+  }
+
+	&_tight {
+		margin-top: 0;
+	}
+  
+  &_double-tight {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  &_wide {
+    max-width: 1320px;
+  }
+
+	&::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+	h1,
+	h2 {
+		img {
+			transform: scale(0.85);
+		}
+		@media #{$medium-up} {
+			img	{
+				transform: scale(1);
+			}
+		}
+	}
+  
+  > h1,
+  > h2 {
+    color: #0075b8;
+  }
+
+	h3 {
+		img {
+			transform: scale(0.85);
+		}
+		@media #{$medium-up} {
+
+			img	{
+				transform: scale(1);
+			}
+		}
+	}
+  
+  _wide {
+    max-width: $screen-xlarge-min;
+  }
+
+  .advantages-item {
+    margin-bottom: 50px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    @media #{$medium-down} {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+
+  .advantages-icon {
+    @media #{$medium-down} {
+      margin-bottom: 2rem;
+    }
+  }
+
+  .product-sub-title {
+    font-weight: 600;
+    margin-top: 0;
+
+    @media #{$medium-up} {
+      font-size: 3rem;
+      font-weight: 400;
+    }
+  }
+  
+  .c-grid_row {
+    
+    p {
+      
+      @media #{$small-down} {
+        font-size: 1.1rem;
+        text-align: center;
+      }
+    }
+  }
+  
+  .p-model-a__bg-white {
+    
+    p {
+      
+      @media #{$small-down} {
+        text-align: center;
+      }
+    }
+  }
+
+}

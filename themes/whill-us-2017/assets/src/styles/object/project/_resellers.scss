@@ -1,0 +1,56 @@
+.resellers-wrapper {
+  text-align: center;
+  
+  .resellers-category {
+    &.national-category {
+      h2 {
+        margin-bottom: 0;
+      }
+    }
+    
+    &.local-category {
+      margin-top: 120px;
+     
+       h2 {
+         margin-bottom: -40px;
+       }
+       
+       .reseller-item {
+         min-height: 350px;
+       }
+    }
+  }
+  
+  .reseller-item {
+    margin-top: 35px;
+    
+    h3 {
+      font-weight: 600;
+      margin-top: 20px;
+    }
+    
+    h4 {
+      font-size: 2.2rem;
+    }
+  }
+  
+  .reseller-logo-wrapper {
+    align-items: center;
+    display: flex;
+    height: 75px;
+    
+    .reseller-link {
+      align-items: center;
+      display: flex;
+      height: 100%; 
+      outline: 0;
+      width: 100%;
+    }
+    
+    .reseller-logo {
+      height: auto;
+      max-height: 100%;
+      width: auto;
+    }
+  }
+}

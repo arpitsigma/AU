@@ -1,0 +1,80 @@
+.p-flow {
+	padding-left: 0;
+	margin: 0.5em 0;
+	counter-reset: flow;
+
+
+
+	&__item {
+		position: relative;
+		background-color: #fff;
+		margin-bottom: 15px;
+
+		display: flex;
+		line-height: 1.6;
+		align-items: center;
+		text-align: center;
+
+		&::before {
+			counter-increment:flow;
+			content:counter(flow);
+			display: block;
+			margin: 10px 0;
+			margin-left: -42px;
+			transform: translateX(52px);
+			width: 42px;
+			height: 42px;
+			line-height: 42px;
+			border-radius: 21px;
+			text-align: center;
+			background-color: $color-primary;
+			color: #FFF;
+		}
+
+		&::after {
+			$size: 8px;
+			content: "";
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			margin-left: -1 * $size / 2;
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: $size $size 0 $size;
+			border-color: #fff transparent transparent transparent;
+		}
+
+		&:last-child {
+			background-color: #666;
+			color: #FFF;
+
+			&::before {
+				color: #666;
+				background-color: #fff;
+			}
+
+			&::after {
+				display: none;
+			}
+		}
+	}
+
+	&__container {
+		flex: 100% 1 1;
+		padding: 10px 0;
+	}
+
+	&__title {
+		display: block;
+		font-size: 1.2em;
+	}
+
+	&__small {
+		font-size: 0.77em;
+		display: block;
+		padding: 0 60px;
+	}
+
+
+}

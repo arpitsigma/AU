@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="<?php echo whill_get_lang_code(); ?>" class="no-webp">
+<head>
+    <meta charset="UTF-8">
+    <?php if (defined('WP_DEV') && WP_DEV): ?>
+    <meta name="robots" content="noindex">
+    <?php endif; ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, user-scalable=yes">
+    <meta name="google-site-verification" content="LV-UwqJiVwF6lU0BKea3RR6kdc3XmK4mWSoksqVTofw" />
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico" type="image/vnd.microsoft.icon"/>
+    <?php if (is_front_page()): ?>
+    <link rel="alternate" hreflang="ja" href="https://whill.inc/jp/" />
+    <?php endif; ?>
+
+    <?php get_template_part( 'check_support_webp'); ?>
+    <?php get_template_part( 'fonts-com'); ?>
+    <?php wp_head(); ?>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-173934998-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-173934998-1');
+    </script>
+</head>
+<body <?php body_class(); ?>>
+<div id="viewport" class="l-body" data-fixed-body>
+  <header class="p-navbar" data-fixed-navbar data-scroll-addclass="p-navbar_small">
+    <div class="c-container c-container_full">
+      <div class="p-navbar__container">
+        <h1 class="p-navbar__brand"><a href="<?php echo whill_get_permalink(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/dist/images/logo.svg" alt="WHILL"/></a></h1>
+        <button class="p-navbar__toggle c-menu-btn" data-slidemenu-target=".slidemenu-target" title="menu"><span></span></button>
+        <div class="p-navbar__spacer"></div>
+
+        <nav class="c-slidemenu p-navbar__slidemenu slidemenu-target" role="navigation">
+          <div class="p-navigation">
+
+            <ul class="p-navigation__items">
+              <?php wp_nav_menu( [
+                'theme_location' => 'primary',
+                'menu_class' => 'p-navigation',
+                'li_class' => 'p-navigation__item',
+                'link_before'   => '<span class="p-navigation__text">',
+                'link_after'    => '</span>',
+                'items_wrap'=> '%3$s',
+                'container' => false,
+              ] );?>
+              <li class="menu-item menu-item-lang-switcher menu-item-has-children p-navigation__item active">
+                <a>
+          				<span class="flag <?php echo defined('ICL_LANGUAGE_CODE') ? ICL_LANGUAGE_CODE : 'en'; ?>"></span>
+          				<span class="p-navigation__text"><?php _e('Language', 'whill-theme'); ?></span>
+                </a>
+                <span class="sub-menu-label"><?php _e('Select Your Language', 'whill-theme'); ?></span>
+                <ul class="sub-menu">
+                  <?php foreach (icl_get_languages('skip_missing=0') as $lang): ?>
+                    <li class="menu-item p-navigation__item">
+                      <a href="<?php echo $lang['url']; ?>">
+                        <span class="flag <?php echo $lang['code']; ?>"></span>
+                        <span class="p-navigation__text"><?php echo $lang['translated_name']; ?></span>
+                      </a>
+                    </li>
+                  <?php endforeach; ?>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+      </div>
+
+    </div>
+  </header>

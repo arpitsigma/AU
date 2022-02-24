@@ -1,0 +1,56 @@
+.p-band {
+
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+
+
+	&_highlight {
+		background-color: $color-band-highlight-background;
+	}
+
+	&_primary {
+		background-color: $color-band-primary-background;
+		color: $color-band-primary;
+	}
+
+	&_cloudy {
+		color: $color-band-tint;
+		background-color: #9a9a9a;
+	}
+
+	&_tint {
+		color: $color-band-tint;
+		background-color: $color-band-tint-background;
+	}
+
+	&_dark {
+		color: $color-band-dark;
+		background-color: $color-band-dark-background;
+	}
+  
+  &_footer {
+		color: $color-band-dark;
+		background-color: $color-band-footer-background;
+	}
+  
+  &_gray {
+    color: $color-band-dark;
+		background-color: #666;
+  }  
+  &_light-gray {
+		background-color: #a0a0a0;
+  }
+  
+  &_light {
+    background-color: #e5e5e5;
+  }
+  
+  &_extra-light {
+    background-color: #ededed;
+  }
+  
+  &_bronze {
+    background: #dacab4;
+  }
+}

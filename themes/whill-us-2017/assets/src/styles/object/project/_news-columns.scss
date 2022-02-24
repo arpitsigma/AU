@@ -1,0 +1,32 @@
+.p-news-columns {
+	display: flex;
+	align-items: stretch;
+	margin-bottom: 100px;
+
+	&__main,
+	&__sub {
+		padding-top: 30px;
+	}
+
+	&__main {
+		order: 9;
+		flex-grow: 1;
+		@media #{$large-up} {
+			background-color: #fff;
+			padding: 30px 40px;
+		}
+	}
+
+
+	&__sub {
+		display: none;
+		order: 1;
+		background-color: #efefef;
+		width: 240px;
+		flex: 240px 0 0;
+
+		@media #{$large-up} {
+			display: block;
+		}
+	}
+}

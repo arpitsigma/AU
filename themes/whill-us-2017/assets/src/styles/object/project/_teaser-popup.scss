@@ -1,0 +1,49 @@
+.teaser-popup-wrapper {
+    background: rgba(0,0,0,.5);
+    bottom: 0;
+    display: block;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 10100;
+
+    &.closed-popup {
+        display: none;
+    }
+}
+
+.teaser-popup {
+    background: #efefef;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    box-sizing: border-box;
+    left: 50%;
+    max-height: 90%;
+    max-width: 360px;
+    overflow: auto;
+    padding: 10px 20px;
+    position: fixed;
+    text-align: center;;
+    top: -50%;
+    transform: translate(-50%, -50%);
+    transition: top .5s ease-out 0s;
+    width: 90%;
+    
+    .showed-popup & {
+        top: 50%;
+    }
+}
+
+.close-popup {
+    background: #efefef url(../images/icon-close_20x20_gray_opt.png) center center no-repeat;
+    display: block;
+    font-size: 0;
+    height: 30px;
+    line-height: 0;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 30px;
+}

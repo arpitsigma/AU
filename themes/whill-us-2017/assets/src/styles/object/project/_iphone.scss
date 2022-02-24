@@ -1,0 +1,21 @@
+.p-iphone {
+
+	margin: auto;
+	position: relative;
+	background: url("../images/iphone.png");
+	background-size: cover;
+	
+	&::before {
+		content: "";
+		display: block;
+		padding-top: 204.66%;
+	}
+
+	&__screen {
+		width: 87%;
+		height: 75.69%;
+		position: absolute;
+		top: 12.07%;
+		left: 6.33%;
+	}
+}

@@ -1,0 +1,1050 @@
+# Translation of Plugins - Google Analytics Dashboard Plugin for WordPress by MonsterInsights - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Google Analytics Dashboard Plugin for WordPress by MonsterInsights - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-29 14:48:45+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Google Analytics Dashboard Plugin for WordPress by MonsterInsights - Stable (latest release)\n"
+
+#: languages/vue.php:2436
+msgid "As a valued MonsterInsights Lite user you %1$sreceive 50%% off%2$s, automatically applied at checkout!"
+msgstr "Als gewaardeerde MonsterInsights Lite-gebruiker ontvang je %1$s50%% korting op %2$s, automatisch toegepast bij het afrekenen!"
+
+#: languages/vue.php:2452
+msgid "Upgrade to Pro and unlock addons and other great features. %1$sSave 50%% automatically!%2$s"
+msgstr "Upgrade naar Pro en ontgrendel add-ons en andere geweldige functies. %1$sBespaar automatisch 50%% op!%2$s"
+
+#: languages/vue.php:2388
+msgid "Upgrade to Pro to unlock addons and other great features. As a valued MonsterInsights Lite user you %1$sreceive 50%% off%2$s, automatically applied at checkout!"
+msgstr "Upgrade naar Pro om add-ons en andere geweldige functies te ontgrendelen. Als gewaardeerde MonsterInsights Lite-gebruiker ontvang je %1$s50% korting op %2$s, automatisch toegepast bij het afrekenen!"
+
+#: languages/vue.php:2367
+msgid "Do not use this feature if you use FeedBurner, as FeedBurner can do this automatically and better than this plugin can. Check this %1$shelp page%2$s for info on how to enable this feature in FeedBurner."
+msgstr "Gebruik deze functie niet als je FeedBurner gebruikt, aangezien FeedBurner dit automatisch en beter kan doen dan deze plugin. Bekijk deze %1$shelp-pagina%2$s voor informatie over het inschakelen van deze functie in FeedBurner."
+
+#: lite/includes/admin/wp-site-health.php:418
+msgid "MonsterInsights has automatically detected an issue with your tracking setup"
+msgstr "MonsterInsights heeft automatisch een probleem gedetecteerd met je trackinginstellingen"
+
+#: languages/vue.php:1806
+msgid "Automatically track clicks on your affiliate links, banner ads, and other outbound links with our link tracking."
+msgstr "Houd automatisch klikken op je gelieerde links, banneradvertenties en andere uitgaande links bij met onze link-tracking."
+
+#: languages/vue.php:1812
+msgid "Make Google Analytics compliant with GDPR and other privacy regulations automatically."
+msgstr "Zorg ervoor dat Google Analytics automatisch voldoet aan de AVG en andere privacyregels."
+
+#: languages/vue.php:1722
+msgid "MonsterInsights can automatically upgrade the installed version to the paid version"
+msgstr "MonsterInsights kan de geïnstalleerde versie automatisch upgraden naar de betaalde versie"
+
+#: languages/vue.php:864
+msgid "Automatically track clicks on your affiliate links and ads."
+msgstr "Houd automatisch klikken op je gelieerde links en advertenties bij."
+
+#: languages/vue.php:867
+msgid "Make Google Analytics GDPR compliant automatically"
+msgstr "Google Analytics GDPR automatisch compliant maken"
+
+#: languages/vue.php:882
+msgid "Bonus: MonsterInsights Lite users get %s50%% off regular price%s, automatically applied at checkout."
+msgstr "Bonus: MonsterInsights Lite-gebruikers krijgen %s50%% korting op de normale prijs %s, die automatisch wordt toegepast bij het afrekenen."
+
+#: languages/vue.php:738
+msgid "Updates automatically"
+msgstr "Wordt automatisch bijgewerkt"
+
+#: languages/vue.php:1368
+msgid "Upgrade to Pro and unlock addons and other great features. %sSave 50%% automatically!%s"
+msgstr "Upgrade naar Pro en ontgrendel add-ons en andere geweldige functies.  %sBespaar automatisch 50 %%! %s"
+
+#: languages/vue.php:1157
+msgid "The real-time report automatically updates approximately every 60 seconds."
+msgstr "Het realtime rapport wordt ongeveer elke 60 seconden automatisch bijgewerkt."
+
+#: languages/vue.php:1163
+msgid "The latest data will be automatically shown on this page when it becomes available."
+msgstr "De nieuwste gegevens worden automatisch op deze pagina weergegeven zodra deze beschikbaar zijn."
+
+#: languages/vue.php:1350
+msgid "Upgrade to Pro to unlock addons and other great features. As a valued MonsterInsights Lite user you %sreceive 50%% off%s, automatically applied at checkout!"
+msgstr "Upgrade naar Pro om add-ons en andere geweldige functies te ontgrendelen. Als gewaardeerde MonsterInsights Lite-gebruiker %sontvang 50 %% korting op %s, automatisch toegepast bij het afrekenen!"
+
+#: languages/vue.php:1108
+msgid "MonsterInsights will automatically help you track affiliate links that use internal looking urls like example.com/go/ or example.com/refer/. You can add custom affiliate patterns on our settings panel when you finish the onboarding wizard."
+msgstr "MonsterInsights helpt je automatisch bij het volgen van gelieerde links die intern ogende URL's gebruiken, zoals example.com/go/ of example.com/refer/. Je kunt aangepaste partnerpatronen toevoegen aan ons instellingenpaneel wanneer je de onboarding-wizard voltooit."
+
+#: languages/vue.php:1102
+msgid "MonsterInsights will automatically track downloads of common file types from links you have inserted onto your website. For example: want to know how many of your site's visitors have downloaded a PDF or other file you offer your visitors to download on your site? MonsterInsights makes this both easy, and code-free! You can customize the file types to track at any time from our settings panel."
+msgstr "MonsterInsights houdt automatisch downloads bij van veelvoorkomende bestandstypen via links die je op je site hebt ingevoegd. Bijvoorbeeld: wilt je weten hoeveel bezoekers van je site een pdf of ander bestand hebben gedownload dat je je bezoekers aanbiedt om op je site te downloaden? MonsterInsights maakt dit zowel eenvoudig als zonder code! Je kunt de bestandstypen die je wilt volgen op elk gewenst moment aanpassen via ons instellingenpaneel."
+
+#: languages/vue.php:1075
+msgid "MonsterInsights uses an advanced system to automatically detect all outbound links, download links, affiliate links, telephone links, mail links, and more automatically. We do all the work for you so you don't have to write any code."
+msgstr "MonsterInsights gebruikt een geavanceerd systeem om automatisch alle uitgaande links, downloadlinks, affiliate links, telefoonlinks, maillinks en meer automatisch te detecteren. Wij doen al het werk voor je, zodat je geen code hoeft te schrijven."
+
+#: languages/vue.php:1084
+msgid "MonsterInsights will automatically help Google determine which links are unique and where they are on your site so that your In-Page Analytics reporting will be more accurate."
+msgstr "MonsterInsights helpt Google automatisch bepalen welke links uniek zijn en waar ze zich op je site bevinden, zodat je In-Page Analytics-rapportage nauwkeuriger is."
+
+#: languages/vue.php:1087
+msgid "Install Updates Automatically"
+msgstr "Installeer updates automatisch"
+
+#: languages/vue.php:1093
+msgid "To ensure you get the latest bugfixes and security updates and avoid needing to spend time logging into your WordPress site to update MonsterInsights, we offer the ability to automatically have MonsterInsights update itself."
+msgstr "Om ervoor te zorgen dat je de nieuwste bugfixes en beveiligingsupdates krijgt en je niet hoeft in te loggen op je WordPress-site om MonsterInsights bij te werken, bieden we de mogelijkheid om MonsterInsights automatisch te laten updaten."
+
+#: languages/vue.php:1301
+msgid "To unlock more features consider upgrading to PRO. As a valued MonsterInsights Lite user you receive 50% off, automatically applied at checkout!"
+msgstr "Overweeg een upgrade naar PRO om meer functies te ontgrendelen. Als gewaardeerde MonsterInsights Lite-gebruiker ontvang je 50% korting, automatisch toegepast bij het afrekenen!"
+
+#: languages/vue.php:1704
+msgid "As a valued MonsterInsights Lite user you %sreceive 50%% off%s, automatically applied at checkout!"
+msgstr "Als gewaardeerde MonsterInsights Lite-gebruiker %sontvang je 50%% korting op %s, automatisch toegepast bij het afrekenen!"
+
+#: includes/frontend/tracking/class-tracking-analytics.php:221
+msgid "Note: MonsterInsights does not track you as a logged-in site administrator to prevent site owners from accidentally skewing their own Google Analytics data."
+msgstr "Opmerking: MonsterInsights volgt je niet als aangemeld site beheerder om te voorkomen dat ter plaatse eigenaren per ongeluk hun eigen Google Analytics gegevens scheeftrekken."
+
+#: includes/admin/api-auth.php:394
+msgid "Verify auth key not passed"
+msgstr "Verificatie sleutel niet doorgegeven"
+
+#: includes/api-request.php:191
+msgid "The firewall of your server is blocking outbound calls. Please contact your hosting provider to fix this issue. %s"
+msgstr "De firewall van je server blokkeert uitgaande oproepen. Neem contact op met jouw hostingprovider om dit probleem op te lossen.%s"
+
+#: includes/api-request.php:412 includes/api-request.php:434
+msgid "Reason: The API was unreachable because the call to Google failed."
+msgstr "Reden: de API was onbereikbaar omdat de aanroep naar Google is mislukt."
+
+#: includes/api-request.php:397
+msgid "Reason: The API was unreachable because the API url is on the WP HTTP blocklist."
+msgstr "Reden: de API was onbereikbaar omdat de API url zich op de WP HTTP blokkeringslijst bevindt."
+
+#: includes/api-request.php:384
+msgid "Reason: The API was unreachable because the Airplane Mode plugin is active."
+msgstr "Reden: de API was onbereikbaar omdat de Airplane Mode plugin actief is."
+
+#: includes/api-request.php:417
+msgid "Reason: The API was unreachable because no external hosts are allowed on this site."
+msgstr "Reden: de API was onbereikbaar omdat er geen externe hosts op deze site zijn toegestaan."
+
+#: lite/includes/admin/reports/report-realtime.php:22
+msgid "Real Time"
+msgstr "Echte tijd"
+
+#: languages/vue.php:1872
+msgid "Last %s days"
+msgstr "Afgelopen %s dagen"
+
+#: languages/vue.php:1261
+msgid "Show in full-width mode"
+msgstr "Weergeven in volledige breedte modus"
+
+#: languages/vue.php:1947
+msgid "Visit addons page"
+msgstr "Bezoek addons pagina"
+
+#. Author URI of the plugin
+msgid "https://www.monsterinsights.com/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=authoruri&utm_content=7%2E0%2E0"
+msgstr "https://www.monsterinsights.com/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=authoruri&utm_content=7%2E0%2E0"
+
+#. Plugin URI of the plugin
+msgid "https://www.monsterinsights.com/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=pluginurl&utm_content=7%2E0%2E0"
+msgstr "https://www.monsterinsights.com/?utm_source=liteplugin&utm_medium=pluginheader&utm_campaign=pluginurl&utm_content=7%2E0%2E0"
+
+#: includes/admin/review.php:133
+msgid "I already did"
+msgstr "Heb ik al gedaan"
+
+#: includes/admin/review.php:129
+msgid "~ Syed Balkhi<br>Co-Founder of MonsterInsights"
+msgstr "~ Syed Balkhi<br>Medeoprichter van MonsterInsights"
+
+#: includes/admin/review.php:132
+msgid "Nope, maybe later"
+msgstr "Nee, misschien later"
+
+#: includes/admin/review.php:131
+msgid "Ok, you deserve it"
+msgstr "Ok, je verdient het"
+
+#: languages/vue.php:1380
+msgid "Hide Announcements"
+msgstr "Verberg aankondigingen"
+
+#: languages/vue.php:1377
+msgid "Hides plugin announcements and update details. This includes critical notices we use to inform about deprecations and important required configuration changes."
+msgstr "Verbergt plugin aankondigingen en werkt details bij. Dit omvat kritieke berichten die we gebruiken om te informeren over afschrijvingen en belangrijke vereiste configuratiewijzigingen."
+
+#: googleanalytics.php:563
+msgid "Please uninstall and remove MonsterInsights Pro before activating Google Analytics for WordPress by MonsterInsights. The Lite version has not been activated. %1$sClick here to return to the Dashboard%2$s."
+msgstr "Maak de installatie ongedaan en verwijder MonsterInsights Pro voordat je Google Analytics voor WordPress van MonsterInsights activeert. De Lite versie is niet geactiveerd.%1$sKlik hier om terug te keren naar het dashboard%2$s."
+
+#: languages/vue.php:1518
+msgid "EU Compliance"
+msgstr "EU Compliance"
+
+#: languages/vue.php:1514
+msgid ""
+"The EU Compliance addon allows you to improve compliance with GDPR\n"
+" and other privacy regulations."
+msgstr "Met de EU Compliance add-in kun je de naleving van GDPR en andere privacyregels verbeteren."
+
+#: languages/vue.php:386
+msgid "Sessions"
+msgstr "Sessies"
+
+#: includes/frontend/tracking/class-tracking-analytics.php:304
+msgid "Not running function"
+msgstr "Niet werkende functie"
+
+#: includes/frontend/tracking/class-tracking-analytics.php:304
+msgid "because you are not being tracked."
+msgstr "omdat je niet gevolgd wordt."
+
+#: includes/admin/admin.php:392
+msgid "Important: You are currently using manual UA code output. We highly recommend %1$sauthenticating with MonsterInsights%2$s so that you can access our new reporting area and take advantage of new MonsterInsights features."
+msgstr "Belangrijk: je gebruikt momenteel handmatige UA-code uitvoer. We raden ten zeerste aan %1$sauthenticeren met MonsterInsights%2$s zodat je naar ons nieuwe rapportage gebied kan gaan en profiteer van nieuwe MonsterInsights eigenschappen."
+
+#: languages/vue.php:218 lite/includes/admin/reports/report-queries.php:22
+msgid "Search Console"
+msgstr "Search Console"
+
+#: languages/vue.php:221 lite/includes/admin/reports/report-dimensions.php:22
+msgid "Dimensions"
+msgstr "Afmetingen"
+
+#: languages/vue.php:212 lite/includes/admin/reports/report-publisher.php:22
+msgid "Publishers"
+msgstr "Uitgevers"
+
+#: includes/frontend/tracking/class-tracking-analytics.php:224
+msgid "Note: The site owner has disabled Google Analytics tracking for your user role."
+msgstr "Opmerking: de site eigenaar heeft Google Analytics tracking uitgeschakeld voor jouw gebruikersrol."
+
+#: includes/api-request.php:314 includes/api-request.php:318
+msgid "The API returned a <strong>%d</strong> response with this message: <strong>%s</strong>"
+msgstr "De API heeft een <strong>%d</strong> reactie met dit bericht:<strong>%s</strong>teruggezonden"
+
+#: includes/api-request.php:310
+msgid "The API returned a <strong>%s</strong> response"
+msgstr "De API heeft een <strong>%s</strong> reactie teruggezonden"
+
+#: includes/api-request.php:306
+msgid "The API was unreachable."
+msgstr "De API was onbereikbaar."
+
+#: includes/api-request.php:193
+msgid "The firewall of your server is blocking outbound calls. Please contact your hosting provider to fix this issue."
+msgstr "De firewall van je server blokkeert uitgaande oproepen. Neem contact op met jouw hostingprovider om dit probleem op te lossen."
+
+#: includes/api-request.php:326
+msgid "Improper API request."
+msgstr "Onjuiste API  aanvraag."
+
+#: includes/frontend/tracking/class-tracking-analytics.php:218
+msgid "Note: MonsterInsights is not currently configured on this site. The site owner needs to authenticate with Google Analytics in the MonsterInsights settings panel."
+msgstr "Opmerking: MonsterInsights is momenteel niet geconfigureerd op deze site. De website eigenaar moet authenticeren met Google Analytics in de MonsterInsights instellingen scherm."
+
+#: languages/vue.php:537
+msgid "Enable this setting to add the Demographics and Remarketing features to your Google Analytics tracking code. Make sure to enable Demographics and Remarketing in your Google Analytics account. We have a guide for how to do that in our %sknowledge base%s. For more information about Remarketing, we refer you to %sGoogle's documentation%s. Note that usage of this function is affected by privacy and cookie laws around the world. Be sure to follow the laws that affect your target audience."
+msgstr "Vink deze instelling aan om de demografische en remarketing eigenschappen toe te voegen aan je Google Analytics trackingcode. Zorg ervoor dat je demografische gegevens en remarketing in je Google Analytics account inschakelt. We hebben een gids voor hoe dat te doen in onze%skennis database%s. Voor meer informatie over remarketing verwijzen we je naar%sDe documentatie van Google%s. Merk op dat het gebruik van deze functie wordt beïnvloed door privacy en cookie wetten over de hele wereld. Zorg ervoor dat je de wetten volgt die van invloed zijn op jouw doelgroep."
+
+#: languages/vue.php:290
+msgid "Device Breakdown"
+msgstr "Apparaat analyse"
+
+#: languages/vue.php:407
+msgid "View Countries Report"
+msgstr "Bekijk landen rapport"
+
+#: languages/vue.php:413
+msgid "View All Referral Sources"
+msgstr "Bekijk  alle verwijzingsbronnen"
+
+#: languages/vue.php:416
+msgid "View Full Posts/Pages Report"
+msgstr "Bekijk volledige berichten/pagina's rapport"
+
+#: languages/vue.php:434
+msgid "This list shows the top websites that send your website traffic, known as referral traffic."
+msgstr "In deze lijst worden de top sites weergegeven die je siteverkeer zenden, ook wel 'verwijzingsverkeer' genoemd."
+
+#: languages/vue.php:1142
+msgid "Show"
+msgstr "Toon"
+
+#: languages/vue.php:392
+msgid "Pageviews"
+msgstr "Pageviews"
+
+#: includes/admin/reports/abstract-report.php:350
+msgid "Upgrading is easy! To upgrade, navigate to %sour pricing page%s, purchase the required license, and then follow the %sinstructions in the email receipt%s to upgrade. It only takes a few minutes to unlock the most powerful, yet easy to use analytics tracking system for WordPress."
+msgstr "Opwaarderen is eenvoudig! Om te upgraden, navigeert je naar%sonze prijzen pagina%s, koop de vereiste licentie en volg de %sinstructies in de e-mail bon%s om te upgraden. Het kost slechts een paar minuten om het krachtigste en toch eenvoudig te gebruiken analytics volgsysteem voor WordPress te ontgrendelen."
+
+#: languages/vue.php:1737
+msgid "Percentage of single page visits (or web sessions). It is the number of visits in which a person leaves your website from the landing page without browsing any further."
+msgstr "Percentage één pagina bezoeken (of web sessies). Het is het aantal bezoeken waarin een persoon je site verlaat vanaf de landing page zonder verder te bladeren."
+
+#: languages/vue.php:379
+msgid "Tablet"
+msgstr "Tablet"
+
+#: languages/vue.php:371
+msgid "Returning"
+msgstr "Terugkerend"
+
+#: languages/vue.php:404
+msgid "Top 10 Countries"
+msgstr "Top 10 landen"
+
+#: languages/vue.php:278
+msgid "Top Posts/Pages"
+msgstr "Top berichten/pagina's"
+
+#: languages/vue.php:375
+msgid "Desktop"
+msgstr "Desktop"
+
+#: languages/vue.php:293
+msgid "This graph shows what percent of your visitor sessions are done using a traditional computer or laptop, tablet or mobile device to view your site."
+msgstr "Deze grafiek laat zien welk percentage van je bezoekerssessies wordt gedaan met behulp van een traditionele computer of laptop, tablet of mobiel apparaat om je site te bekijken . "
+
+#: languages/vue.php:287
+msgid "This graph shows what percent of your user sessions come from new versus repeat visitors."
+msgstr "Deze grafiek laat zien welk percentage van je gebruikerssessies afkomstig is van nieuwe versus herhaalde bezoekers."
+
+#: languages/vue.php:281
+msgid "This list shows the most viewed posts and pages on your website."
+msgstr "Deze lijst toont de meest bekeken  berichten en pagina's op je website."
+
+#: languages/vue.php:431
+msgid "This list shows the top countries your website visitors are from."
+msgstr "Deze lijst toont de toplanden waar je websitebezoekers vandaan komen."
+
+#: languages/vue.php:422
+msgid "A pageview is defined as a view of a page on your site that is being tracked by the Analytics tracking code. Each refresh of a page is also a new pageview."
+msgstr "Een paginaweergave is gedefinieerd als een weergave van een pagina op je site die wordt bijgehouden door de Analytics trackingcode. Elke vernieuwing van een pagina is ook een nieuwe paginaweergave."
+
+#: languages/vue.php:419
+msgid "A session is the browsing session of a single user to your site."
+msgstr "Een sessie is de bladersessie van een enkele gebruiker naar je site."
+
+#: languages/vue.php:1138
+msgid "No change"
+msgstr "Geen verandering"
+
+#: languages/vue.php:398
+msgid "Avg. Session Duration"
+msgstr "Gem. Sessieduur"
+
+#: languages/vue.php:425
+msgid "Total duration of all sessions (in seconds) / number of sessions."
+msgstr "Totale duur van alle sessies (in seconden) / aantal sessies."
+
+#: languages/vue.php:383
+msgid "Mobile"
+msgstr "Mobiel"
+
+#: languages/vue.php:368
+msgid "New"
+msgstr "Nieuw"
+
+#: languages/vue.php:284
+msgid "New vs. Returning Visitors"
+msgstr "Nieuwe versus terugkerende bezoekers"
+
+#: includes/admin/reports/abstract-report.php:348
+msgid "Do you you want to access to %s reporting right now%s in your WordPress Dashboard? That comes with %s level%s of our paid packages. To get instant access, you'll want to buy a MonsterInsights license, which also gives you access to powerful addons, expanded reporting (including the ability to use custom date ranges), comprehensive tracking features (like UserID tracking) and access to our world-class support team."
+msgstr "Wil jij toegang tot%s rapportage nu direct%sin je WordPress dashboard? Dat komt met %s niveau%s van onze betaalde pakketten. Om direct toegang te krijgen, zul je een MonsterInsights licentie willen kopen, die je ook toegang geeft tot krachtige add-ins, uitgebreide rapportage (inclusief de mogelijkheid om aangepaste perioden te gebruiken), uitgebreide functies voor het bijhouden (zoals gebruikers ID tracking) en toegang tot onze wereldklasse ondersteuningsteam."
+
+#: includes/admin/reports/abstract-report.php:333
+msgid "(And Crush Your Competition?)"
+msgstr "(En je competitie verpletteren?)"
+
+#: includes/admin/reports/abstract-report.php:343
+#: includes/admin/reports/abstract-report.php:352
+msgid "If you have any questions, don't hesitate to reach out. We're here to help."
+msgstr "Als je vragen hebt, aarzel dan niet om contact op te nemen. We zijn hier om te helpen."
+
+#: languages/vue.php:1468
+msgid "Verify Credentials"
+msgstr "Controleer de legitimeringen"
+
+#: includes/admin/reports/abstract-report.php:69
+msgid "The dashboard is disabled."
+msgstr "Het dashboard is uitgeschakeld."
+
+#: includes/admin/reports/abstract-report.php:341
+msgid "It's easy! To upgrade, navigate to %sMy Account%s on MonsterInsights.com, go to the licenses tab, and click upgrade. We also have a %sstep by step guide%s with pictures of this process."
+msgstr "Het is makkelijk! Om te upgraden, navigeert je naar%sMijn Account%sop MonsterInsights.com, ga naar het tabblad licenties en klik op upgrade. We hebben ook een%sstap voor stap handleiding met afbeeldingen van dit proces."
+
+#: includes/admin/reports/abstract-report.php:319
+msgid "You currently have a %s level license, but this report requires at least a %s level license to view the %s. Please upgrade to view this report."
+msgstr "Je hebt momenteel een%s niveau licentie, maar dit rapport vereist ten minste een %s level licentie om te bekijken de%s. Voer een upgrade uit om dit rapport te bekijken."
+
+#: includes/admin/routes.php:544
+msgid "You can't view MonsterInsights reports due to license key errors."
+msgstr "Je kunt MonsterInsights rapporten niet bekijken als gevolg van licentie sleutel fouten."
+
+#: includes/admin/api-auth.php:378
+msgid "Cannot verify. Please enter a valid, active license key for MonsterInsights Pro into the settings."
+msgstr "Kan niet verifiëren. Voer een geldige, actieve licentiesleutel voor MonsterInsights Pro in de instellingen in."
+
+#: includes/admin/reports/abstract-report.php:331
+msgid "Ready to Get Analytics Super-Powers?"
+msgstr "Klaar om Analytics Super-Powers te krijgen?"
+
+#: includes/admin/api-auth.php:446
+msgid "Could not deauthenticate."
+msgstr "Kon niet verifiëren."
+
+#: includes/admin/api-auth.php:384
+msgid "Successfully verified."
+msgstr "Met succes geverifieerd."
+
+#: includes/admin/api-auth.php:441
+msgid "Successfully deauthenticated."
+msgstr "Successfully deauthenticated."
+
+#: includes/admin/api-auth.php:444
+msgid "Successfully force deauthenticated."
+msgstr "Met succes deauthenticated."
+
+#: includes/admin/reports/abstract-report.php:345
+msgid ""
+"Hey there! %s It looks like you've got the free version of MonsterInsights installed on your site.\n"
+"\t\t\t\t\t\t\t\t\t  That's awesome!"
+msgstr ""
+"Hallo daar! %sHet lijkt erop dat je de gratis versie van MonsterInsights op je site hebt geïnstalleerd.  \n"
+"\t \t\t \t\t \t\t \t  Dat is geweldig!"
+
+#: includes/admin/reports/abstract-report.php:336
+msgid ""
+"Hey there! It looks like you've got the %s license installed on your site.\n"
+"\t\t\t\t\t\t\t\t\t  That's awesome! %s"
+msgstr ""
+"Hallo daar! Het lijkt erop dat je de%slicentie hebt geïnstalleerd op je site. \n"
+"\t \t\t \t \t\t \t  Dat is geweldig!%s"
+
+#: languages/vue.php:1462
+msgid "You've disconnected your site from MonsterInsights. Your site is no longer being tracked by Google Analytics and you won't see reports anymore."
+msgstr "Je hebt je site losgekoppeld van MonsterInsights. Je site wordt niet langer bijgehouden door Google Analytics en je zult geen rapporten meer zien."
+
+#: includes/admin/routes.php:552
+msgid "You must authenticate with MonsterInsights before you can view reports."
+msgstr "Je moet jezelf verifiëren met MonsterInsights voordat je rapporten kan bekijken."
+
+#: includes/admin/reports/abstract-report.php:339
+msgid "Do you want to access to %s reporting right now%s in your WordPress Dashboard? That comes with the %s level%s of our paid packages. You'll need to upgrade your license to get instant access."
+msgstr "Wil je toegang tot%s rapportage nu%sin je WordPress Dashboard? Dat komt met de%s niveau%svan onze betaalde pakketten. Je moet jouw licentie upgraden om direct toegang te krijgen."
+
+#: includes/admin/routes.php:558
+msgid "Unknown report. Try refreshing and retrying. Contact support if this issue persists."
+msgstr "Onbekend rapport. Probeer te vernieuwen en opnieuw proberen. Neem contact op met ondersteuning als dit probleem zich blijft voordoen."
+
+#: includes/admin/api-auth.php:370 includes/admin/api-auth.php:372
+msgid "Cannot verify. Please authenticate."
+msgstr "Kan niet verifiëren. Authoriseer alstublieft."
+
+#: includes/admin/api-auth.php:361
+msgid "You don't have permission to verify MonsterInsights."
+msgstr "Je bent niet gemachtigd om MonsterInsights te verifiëren."
+
+#: languages/vue.php:468
+msgid "Automatic Updates"
+msgstr "Automatische updates"
+
+#: languages/vue.php:448
+msgid "Minor only %s- Get bugfixes and security updates, but not major features.%s"
+msgstr "Alleen kleine %s - Ontvang alleen oplossingen voor fouten en beveiligings updates, ontvang geen nieuwe functies."
+
+#: languages/vue.php:452
+msgid "None %s- Manually update everything.%s"
+msgstr "Geen %s- Alles handmatig bijwerken.%s"
+
+#: languages/vue.php:444
+msgid "Yes (recommended) %s- Get the latest features, bugfixes, and security updates as they are released.%s"
+msgstr "Ja (aanbevolen) %s- Krijg de laatste eigenschappen, oplossingen voor fouten en beveiligingsupdates wanneer deze worden uitgebracht."
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:318
+msgid "Quick Feedback"
+msgstr "Snelle feedback"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:304
+msgid "I couldn't get the plugin to work"
+msgstr "Ik krijg de plugin niet werkend"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:307
+msgid "It's a temporary deactivation"
+msgstr "Het is een tijdelijke deactivatie"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:310
+msgid "Other"
+msgstr "Anders"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:297
+msgid "I no longer need the plugin"
+msgstr "Ik heb de plugin niet langer nodig"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:172
+msgid "Please select an option"
+msgstr "Selecteer een optie"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:300
+msgid "I'm switching to a different plugin"
+msgstr "Ik ben een andere plugin gaan gebruiken"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:335
+msgid "Skip %s Deactivate"
+msgstr "Sla over %s deactiveer"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:334
+msgid "Submit %s Deactivate"
+msgstr "Versturen %s deactiveer"
+
+#: assets/lib/pandora/class-am-deactivation-survey.php:311
+msgid "Please share the reason"
+msgstr "Geef een reden op"
+
+#: languages/vue.php:1504
+msgid "Google AMP"
+msgstr "Google AMP"
+
+#: includes/helpers.php:427
+msgid "Czechia"
+msgstr "Tsjechië"
+
+#: languages/vue.php:651
+msgid "Import"
+msgstr "Importeer"
+
+#: includes/admin/routes.php:437
+msgid "Invalid UA code"
+msgstr "Ongeldige UA code."
+
+#: includes/helpers.php:393
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: includes/helpers.php:434
+msgid "Egypt"
+msgstr "Egypte"
+
+#: includes/helpers.php:504
+msgid "Malta"
+msgstr "Malta"
+
+#: includes/helpers.php:445
+msgid "French Guiana"
+msgstr "Frans-Guyana"
+
+#: includes/helpers.php:409
+msgid "Cayman Islands"
+msgstr "Kaaimaneilanden"
+
+#: includes/helpers.php:421
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: includes/helpers.php:489
+msgid "Latvia"
+msgstr "Letland"
+
+#: includes/helpers.php:374
+msgid "Andorra"
+msgstr "Andorra"
+
+#: includes/helpers.php:587
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: includes/admin/tracking.php:242
+msgid "Once Weekly"
+msgstr "Eens per week"
+
+#: includes/helpers.php:369
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: includes/helpers.php:368
+msgid "United Kingdom"
+msgstr "Verenigd Koninkrijk"
+
+#: includes/helpers.php:367
+msgid "Canada"
+msgstr "Canada"
+
+#: includes/helpers.php:366
+msgid "United States"
+msgstr "Verenigde Staten"
+
+#: includes/helpers.php:390
+msgid "Belgium"
+msgstr "België"
+
+#: includes/helpers.php:383
+msgid "Austria"
+msgstr "Oostenrijk"
+
+#: includes/helpers.php:382
+msgid "Australia"
+msgstr "Australië"
+
+#: includes/helpers.php:524
+msgid "Netherlands Antilles"
+msgstr "Nederlandse Antillen"
+
+#: includes/helpers.php:523
+msgid "Netherlands"
+msgstr "Nederland"
+
+#: includes/helpers.php:522
+msgid "Nepal"
+msgstr "Nepal"
+
+#: includes/helpers.php:566
+msgid "Serbia"
+msgstr "Servië"
+
+#: includes/helpers.php:565
+msgid "Senegal"
+msgstr "Senegal"
+
+#: includes/helpers.php:584
+msgid "Sweden"
+msgstr "Zweden"
+
+#: includes/helpers.php:581
+msgid "Suriname"
+msgstr "Suriname"
+
+#: includes/helpers.php:580
+msgid "Sudan"
+msgstr "Soedan"
+
+#: includes/helpers.php:579
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: includes/helpers.php:578
+msgid "Spain"
+msgstr "Spanje"
+
+#: includes/helpers.php:585
+msgid "Switzerland"
+msgstr "Zwitserland"
+
+#: includes/helpers.php:590
+msgid "Thailand"
+msgstr "Thailand"
+
+#: includes/helpers.php:597
+msgid "Turkey"
+msgstr "Turkije"
+
+#: includes/helpers.php:617
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: includes/helpers.php:616
+msgid "Zambia"
+msgstr "Zambia"
+
+#: includes/helpers.php:615
+msgid "Yemen"
+msgstr "Jemen"
+
+#: includes/helpers.php:614
+msgid "Western Samoa"
+msgstr "Samoa"
+
+#: includes/helpers.php:613
+msgid "Western Sahara"
+msgstr "Westelijke Sahara"
+
+#: includes/helpers.php:596
+msgid "Tunisia"
+msgstr "Tunesië"
+
+#: includes/helpers.php:574
+msgid "South Africa"
+msgstr "Zuid-Afrika"
+
+#: includes/helpers.php:576
+msgid "South Korea"
+msgstr "Zuid-Korea"
+
+#: includes/helpers.php:571
+msgid "Slovenia"
+msgstr "Slovenië"
+
+#: includes/helpers.php:570
+msgid "Slovak Republic"
+msgstr "Slowakije"
+
+#: includes/helpers.php:558
+msgid "Saint Martin (French)"
+msgstr "Saint Martin (Frans)"
+
+#: includes/helpers.php:559
+msgid "Saint Martin (Dutch)"
+msgstr "Sint-Maarten (Nederlands)"
+
+#: includes/helpers.php:551
+msgid "Romania"
+msgstr "Roemenië"
+
+#: includes/helpers.php:545
+msgid "Poland"
+msgstr "Polen"
+
+#: includes/helpers.php:542
+msgid "Peru"
+msgstr "Peru"
+
+#: includes/helpers.php:541
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: includes/helpers.php:539
+msgid "Panama"
+msgstr "Panama"
+
+#: includes/helpers.php:534
+msgid "Norway"
+msgstr "Noorwegen"
+
+#: includes/helpers.php:532
+msgid "North Korea"
+msgstr "Noord-Korea"
+
+#: includes/helpers.php:510
+msgid "Mexico"
+msgstr "Mexico"
+
+#: includes/helpers.php:513
+msgid "Monaco"
+msgstr "Monaco"
+
+#: includes/helpers.php:515
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: includes/helpers.php:496
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: includes/helpers.php:499
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: includes/helpers.php:371
+msgid "Albania"
+msgstr "Albanië"
+
+#: includes/helpers.php:395
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: includes/helpers.php:394
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: includes/helpers.php:392
+msgid "Benin"
+msgstr "Benin"
+
+#: includes/helpers.php:391
+msgid "Belize"
+msgstr "Belize"
+
+#: includes/helpers.php:389
+msgid "Belarus"
+msgstr "Wit-Rusland"
+
+#: includes/helpers.php:388
+msgid "Barbados"
+msgstr "Barbados"
+
+#: includes/helpers.php:387
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: includes/helpers.php:386
+msgid "Bahrain"
+msgstr "Bahrein"
+
+#: includes/helpers.php:385
+msgid "Bahamas"
+msgstr "Bahama's"
+
+#: includes/helpers.php:384
+msgid "Azerbaijan"
+msgstr "Azerbeidzjan"
+
+#: includes/helpers.php:381
+msgid "Aruba"
+msgstr "Aruba"
+
+#: includes/helpers.php:380
+msgid "Armenia"
+msgstr "Armenië"
+
+#: includes/helpers.php:379
+msgid "Argentina"
+msgstr "Argentinië"
+
+#: includes/helpers.php:378
+msgid "Antigua and Barbuda"
+msgstr "Antigua en Barbuda"
+
+#: includes/helpers.php:377
+msgid "Antarctica"
+msgstr "Antarctica"
+
+#: includes/helpers.php:376
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: includes/helpers.php:375
+msgid "Angola"
+msgstr "Angola"
+
+#: includes/helpers.php:373
+msgid "American Samoa"
+msgstr "Amerikaans-Samoa"
+
+#: includes/helpers.php:372
+msgid "Algeria"
+msgstr "Algerije"
+
+#: includes/helpers.php:413
+msgid "China"
+msgstr "China"
+
+#: includes/helpers.php:412
+msgid "Chile"
+msgstr "Chili"
+
+#: includes/helpers.php:475
+msgid "Ireland"
+msgstr "Ierland"
+
+#: includes/helpers.php:474
+msgid "Iraq"
+msgstr "Irak"
+
+#: includes/helpers.php:473
+msgid "Iran"
+msgstr "Iran"
+
+#: includes/helpers.php:472
+msgid "Indonesia"
+msgstr "Indonesië"
+
+#: includes/helpers.php:471
+msgid "India"
+msgstr "India"
+
+#: includes/helpers.php:470
+msgid "Iceland"
+msgstr "IJsland"
+
+#: includes/helpers.php:469
+msgid "Hungary"
+msgstr "Hongarije"
+
+#: includes/helpers.php:468
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: includes/helpers.php:467
+msgid "Honduras"
+msgstr "Honduras"
+
+#: includes/helpers.php:466
+msgid "Holy See (City Vatican State)"
+msgstr "Vaticaanstad"
+
+#: includes/helpers.php:546
+msgid "Portugal"
+msgstr "Portugal"
+
+#: languages/vue.php:555
+msgid "Do not use this feature if you use FeedBurner, as FeedBurner can do this automatically and better than this plugin can. Check this %shelp page%s for info on how to enable this feature in FeedBurner."
+msgstr "Gebruik deze functie niet als je FeedBurner gebruikt, aangezien FeedBurner dit automatisch en beter kan doen dan deze plugin. Bekijk deze %shelp-pagina %s voor informatie over het inschakelen van deze functie in FeedBurner."
+
+#: languages/vue.php:507
+msgid "Anonymize IP Addresses"
+msgstr "IP-adressen anonimiseren"
+
+#: languages/vue.php:1615
+msgid "Cancel"
+msgstr "Annuleer"
+
+#: includes/admin/notice.php:225
+msgid "Dismiss this notice"
+msgstr "Sluit deze melding"
+
+#: includes/admin/reports/abstract-report.php:89
+msgid "Please %1$sauthenticate %2$swith Google Analytics to allow the plugin to fetch data."
+msgstr "%1$sLog in %2$smet Google Analytics om deze plugin toe te staan data op te halen."
+
+#: includes/admin/reports/abstract-report.php:358 languages/vue.php:1332
+msgid "Upgrade Now"
+msgstr "Upgrade nu"
+
+#: includes/admin/admin.php:93
+msgid "Network Settings"
+msgstr "Netwerk instellingen"
+
+#: includes/admin/admin.php:164
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: includes/admin/admin.php:175 includes/admin/admin.php:178
+#: languages/vue.php:949
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: languages/vue.php:1042
+msgid "Installing..."
+msgstr "Installeren..."
+
+#: languages/vue.php:200
+msgid "Install"
+msgstr "Installeer"
+
+#: languages/vue.php:1310
+msgid "Deactivating..."
+msgstr "Deactiveren..."
+
+#: languages/vue.php:1313
+msgid "Deactivate"
+msgstr "Deactiveer"
+
+#: languages/vue.php:1335
+msgid "Activating..."
+msgstr "Activeren..."
+
+#: languages/vue.php:1587
+msgid "Proceed"
+msgstr "Ga door"
+
+#: languages/vue.php:203
+msgid "Activate"
+msgstr "Activeer"
+
+#: googleanalytics.php:255 googleanalytics.php:269
+msgid "Cheatin&#8217; huh?"
+msgstr "Vals spelen?"
+
+#: languages/vue.php:1322
+msgid "Network Active"
+msgstr "Netwerk actief"
+
+#. Author of the plugin
+#: includes/admin/admin.php:31 includes/admin/admin.php:34
+#: includes/admin/admin.php:42 lite/includes/admin/dashboard-widget.php:96
+#: lite/includes/admin/wp-site-health.php:172
+#: lite/includes/admin/wp-site-health.php:224
+#: lite/includes/admin/wp-site-health.php:251
+#: lite/includes/admin/wp-site-health.php:289
+#: lite/includes/admin/wp-site-health.php:316
+#: lite/includes/admin/wp-site-health.php:343
+#: lite/includes/admin/wp-site-health.php:368
+#: lite/includes/admin/wp-site-health.php:407
+msgid "MonsterInsights"
+msgstr "MonsterInsights"
+
+#: includes/admin/admin.php:31 includes/admin/admin.php:37
+#: includes/admin/admin.php:45 includes/admin/admin.php:91
+#: languages/vue.php:169
+msgid "Insights"
+msgstr "Insights"
+
+#: languages/vue.php:606
+msgid "Custom code"
+msgstr "Aangepaste code"
+
+#: languages/vue.php:504
+msgid "Enable Demographics and Interests Reports for Remarketing and Advertising"
+msgstr "Demografische en interesse-rapportages voor Remarketing en Advertising inschakelen"
+
+#: languages/vue.php:1078
+msgid "Enhanced Link Attribution"
+msgstr "Verrijkte link attributen"
+
+#: languages/vue.php:455
+msgid "License Key"
+msgstr "Licentiecode"
+
+#: languages/vue.php:543
+msgid "Add %sEnhanced Link Attribution%s to your tracking code."
+msgstr "%sVerrijkte link attributen%s toevoegen aan je tracking code."
+
+#: languages/vue.php:531
+msgid "Extensions of Files to Track as Downloads"
+msgstr "Bestand extensies tracken als downloads:"
+
+#: languages/vue.php:1710
+msgid "Paste your license key here"
+msgstr "Hier je licentiesleutel plakken."
+
+#: languages/vue.php:609
+msgid "Not for the average user: this allows you to add a line of code, to be added before the %spageview is sent%s."
+msgstr "Niet voor de gemiddelde gebruiker: dit geeft de mogelijkheid een regel code toe te voegen, die toegevoegd moet worden voor de %spageview is verzonden%s."
+
+#: languages/vue.php:257
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+#: languages/vue.php:937
+msgid "Custom Dimensions"
+msgstr "Aangepaste dimensies"
+
+#: languages/vue.php:245
+msgid "General"
+msgstr "Algemeen"
+
+#: languages/vue.php:1486
+msgid "Manually enter your UA code"
+msgstr "UA code handmatig invullen"
+
+#: includes/admin/reports/overview.php:34 languages/vue.php:209
+msgid "Overview"
+msgstr "Overzicht"
+
+#: includes/admin/admin.php:39 includes/admin/admin.php:95
+#: languages/vue.php:612
+msgid "Reports"
+msgstr "Rapportage"
+
+#: includes/admin/admin.php:34 includes/admin/admin.php:42
+#: includes/admin/admin.php:182
+msgid "Settings"
+msgstr "Instellingen"
+
+#: languages/vue.php:1006
+msgid "eCommerce Tracking"
+msgstr "eCommerce bijhouden"
+
+#: languages/vue.php:365
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: languages/vue.php:401
+msgid "Bounce Rate"
+msgstr "Bounce percentage"
+
+#: languages/vue.php:540
+msgid "This adds %sanonymizeIp%s, telling Google Analytics to anonymize the information sent by the tracker objects by removing the last octet of the IP address prior to its storage."
+msgstr "Dit voegt %sanonymizelp%s toe, het geeft aan Google Analytics door om informatie te anonimiseren, die gestuurd is door de tracker objecten door het laatste gedeelte van het IP adres te verwijderen voordat de gegevens worden opgeslagen."

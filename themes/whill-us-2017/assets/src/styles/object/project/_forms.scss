@@ -1,0 +1,73 @@
+.form-test-drive {
+  
+  p {
+    color: #0075b8;
+  }
+  
+  &_models-wrapper {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+
+    @media #{$medium-up} {
+      padding: 10px 50px;
+    }
+    
+    body & {
+      font-size: 1.6rem;
+    }
+    
+    @media #{$medium-up} {
+      body & {
+        font-size: 1.9rem;
+      }
+    }
+    
+    p {
+      margin: 0;
+      
+      @media #{$small-down} {
+        .p-page-content & {
+          text-align: center;
+        }
+      }
+    }
+        
+    .c-grid {
+      align-items: center;
+    }
+  }
+  
+  &_fields-wrapper {
+    background: #bebebe;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0;
+    
+    @media #{$medium-up} {
+      padding: 0 20px;
+		}
+    
+    .form-test-drive_notice {
+      color: #fff;
+      font-size: 1.6rem;
+      margin: 16px 0 26px;
+    }
+  }
+}
+
+.pardotform[height="900"] {
+  height: 1000px;
+  
+  @media #{$small-up} {
+    height: 900px;
+  }
+}
+
+.pardotform[height="940"] {
+  height: 940px;
+  
+  @media #{$small-up} {
+    height: 900px;
+  }
+}

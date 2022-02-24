@@ -1,0 +1,64 @@
+.p-purchase {
+	$height: 60px;
+	width: 100%;
+	display: table;
+	text-align: center;
+	line-height: 1.6;
+	font-size: 0.9em;
+	width: 100%;
+
+	> * {
+
+		display: table-cell;
+		vertical-align: middle;
+		height: $height;
+	}
+
+	&__customer,
+	&__contact {
+		&::after {
+			z-index: 1;
+			$size: $height / 2;
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 100%;
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: $size 0 $size 10px;
+		}
+	}
+
+	&__customer {
+		background-color: #fff;
+		color: #666;
+		position: relative;
+
+		&::after {
+			border-color: transparent #fff;
+		}
+	}
+
+	&__contact {
+		font-size: 0.9em;
+		background-color: #999;
+		color: #fff;
+		position: relative;
+
+		&::after {
+			border-color: transparent #999;
+		}
+	}
+
+	&__whill {
+		color: #FFF;
+		border-left: 20px solid #e5e5e5;
+		background-color: $color-primary;
+
+		img {
+			vertical-align: middle;
+			margin: 0 auto;
+		}
+	}
+}

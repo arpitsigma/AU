@@ -1,0 +1,249 @@
+.p-footer {
+  
+    &__brand {
+        margin: 0 auto 15px;
+        width: 67px;
+
+        @media #{$small-up} {
+            float: right;
+            margin: 37px 27px;
+        }
+    }
+
+    &__address {
+        align-items: center;
+        box-sizing: border-box;
+        display: flex;
+        height: 100%;
+    
+        @media #{$large-up} {
+          padding: 10px 40px;
+        }
+
+        p {
+            margin: 15px 0;
+            text-align: center;
+            width: 100%;
+          
+            @media #{$small-up} {
+                text-align: left;
+                width: auto;
+            }
+		}
+    
+		a {
+			color: #aaa;
+            white-space: nowrap;
+		}
+    
+        .footer-copyright,
+        .footer-links {
+          display: inline-block;
+          overflow: hidden;
+        }
+        
+        .footer-copyright {
+          @media #{$small-up} {
+            margin: 0 30px 0 0;
+          }
+        }
+        
+        .footer-links {
+          display: none;
+          
+          @media #{$large-up} {
+            display: inline-block;
+            font-weight: 700;
+          }
+        }
+        
+        .footer-item {
+          margin: 0 10px;
+          
+          &:first-child {
+            margin: 0;
+          }
+        }
+	}
+
+	&__links {
+		margin: 2.5rem 0 0;
+        padding: 0 2.5rem;
+        overflow: hidden;
+    
+		li {
+			list-style: none;
+            
+            @media #{$medium-down} {
+                float: left;
+                text-align: center;
+                width: 50%;
+            }
+            
+            + li {
+            
+                @media #{$large-up} {
+                    
+                    &:before {
+                        color: $color-footer-links;
+                        content: '|';
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+            
+            a {
+                color: $color-footer-links;
+                font-weight: 400;
+                
+                @media #{$medium-down} {
+                    background: #575757;
+                    border-radius: 15px;
+                    display: block;
+                    font-size: 1.3rem;
+                    margin: .6rem;
+                    padding: .5rem 1.5rem;
+                }
+                
+                @media #{$large-up} {
+                    font-size: 1.4rem;
+                    padding: 0 1.5rem;
+                }
+            }
+		}
+	}
+
+	
+	&__page-top {
+		padding: 1em 0;
+		display: block;
+		background: transparent;
+		border: none;
+		width: 100%;
+
+		&:hover {
+			background-color: lighten($color-secondary, 5%);
+		}
+	}
+
+	&__info {
+		color: #e6e6e6;
+    
+        @media #{$medium-down} {
+          padding: 0 0 2rem;
+        }
+        
+        @media #{$large-up} {
+          padding: 2rem 0;
+        }
+	}
+
+	&__nav {
+		color: #aaa;
+		margin: -1px -1 * $container-gutter;
+
+		@media #{$medium-up} {
+			margin: -1px -1 * $container-gutter-medium-up;
+      line-height: 1.6;
+		}
+
+		@media #{$large-up} {
+			margin: 1.3em 0 0;
+		}
+	}
+
+	&__buttons {
+		padding: 10px 5px;
+		@media #{$large-up} {
+			padding: 0;
+		}
+
+		.c-btn {
+			margin: 0 5px;
+			@media #{$large-up} {
+				margin: 0;
+			}
+		}
+	}
+  
+  a {
+    color: $color-footer-links;
+  }
+  
+  .nav-socials,
+  .footer-info {
+    
+    @media #{$medium-down} {
+      text-align: center;
+    }
+    
+    @media #{$large-up} {
+      margin: 0 4.5rem 0 0;
+      text-align: right;
+    }
+  }
+  
+  .nav-socials {
+    font-size: 0;
+  
+    @media #{$medium-down} {
+      padding: 1rem 0;
+    }
+    
+    @media #{$large-up} {
+      padding: 0 0 1rem;
+    }
+    
+    a {
+      display: inline-block;
+      padding: 1.5rem;
+    }
+    
+    img {
+      height: auto;
+      max-height: 3rem;
+      max-width: 3rem;
+      width: auto;
+    }
+  }
+  
+  .footer-info {
+  
+    @media #{$medium-up} {
+        padding: 0 1.5rem 0 0;
+    }
+    
+    p {
+      margin: 0;
+    }
+  }
+  
+  .footer-contact,
+  .footer-copyright {
+    display: block;
+  }
+  
+  .footer-contact {
+    
+    @media #{$medium-down} {
+      font-size: 1.5rem;
+      margin: 0 0 1rem;
+    }
+    
+    @media #{$large-up} {
+      font-size: 1.8rem;
+      margin: 0 0 2rem;
+    }
+  }
+  
+  .footer-copyright {
+    
+    @media #{$medium-down} {
+      font-size: 1.1rem;
+    }
+    
+    @media #{$large-up} {
+      font-size: 1.2rem;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+body {
+  
+  > .l-body {
+    position: relative;
+    
+    @media #{$small-down} {
+        min-height: calc(100% - 730px);
+        padding-bottom: 670px;
+        /*padding-top: 60px;*/
+    }
+    
+    @media #{$medium-only} {
+        min-height: calc(100% - 680px);
+        padding-bottom: 580px;
+        /*padding-top: 100px;*/
+    }
+    
+    @media #{$large-only} {
+        min-height: calc(100% - 510px);
+        padding-bottom: 410px;
+        /*padding-top: 100px;*/
+    }
+    
+    @media only screen and (min-width: 1200px) {
+        min-height: calc(100% - 395px);
+        padding-bottom: 295px;
+        /*padding-top: 100px;*/
+    }
+    
+    > .p-footer {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+    }
+  }
+}

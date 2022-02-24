@@ -1,0 +1,61 @@
+.p-catch-copy {
+	/*font-family:'DIN Next W01',sans-serif;*/
+  font-family: "FF-DIN-Regular", Verdana, Tahoma;
+	font-weight: 100;
+	line-height: 1.5;
+
+
+	p {
+		margin: 0;
+	}
+
+	font-size: 1.6em;
+
+	@media #{$small-up} {
+		font-size: 2.2em;
+	}
+
+	@media #{$medium-up} {
+		font-size: 2.6em;
+	}
+
+	@media #{$large-up} {
+		font-size: 2.85em;
+	}
+	&__play {
+		text-decoration: underline;
+		font-weight: 400;
+		font-size: 0.8em;
+	}
+	&__play-icon {
+		display: inline-block;
+		vertical-align: middle;
+		&:before {
+			content: "\f148";
+			display: inline-block;
+			font: normal normal normal 14px/1 dashicons;
+			text-decoration: inherit;
+			font-weight: 400;
+			font-style: normal;
+			vertical-align: top;
+			text-align: center;
+			-webkit-transition: color .1s ease-in 0s;
+			transition: color .1s ease-in 0s;
+			-webkit-font-smoothing: antialiased;
+			transform: rotateY(180deg);
+			font-size: 1.4em;
+		}
+
+	}
+
+	&__title {
+		margin-top: 1em;
+		margin-bottom: 0;
+		font-size: 1.25em;
+		font-weight: 100;
+	}
+
+	&__text {
+		font-weight: 100;
+	}
+}

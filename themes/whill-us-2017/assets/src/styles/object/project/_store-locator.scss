@@ -1,0 +1,49 @@
+#sl_div {
+
+	div#slp_tagline {
+		margin-bottom: 40px;
+	}
+
+	div.results_entry span.location_name {
+		color: $color-primary;
+		font-weight: normal;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	#searchForm label,
+	#searchForm #addy_in_radius label {
+		display: block;
+		text-align: center;
+		padding-right: 0;
+		vertical-align: top;
+		min-width: 0;
+	}
+
+	#searchForm input[type="text"] ,
+	#searchForm #addy_in_radius {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#searchForm #radius_in_submit {
+		float: none;
+		display: block;
+		text-align: center;
+		margin: 1em 0;
+	}
+
+	#searchForm input#addressSubmit.slp_ui_button {
+		@include btn();
+
+		background-color: $color-primary;
+		color: #FFF;
+
+		&:hover {
+			background-color: lighten($color-primary, 5%);
+		}
+	}
+}

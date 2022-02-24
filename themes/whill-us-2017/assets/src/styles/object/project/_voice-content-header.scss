@@ -1,0 +1,16 @@
+.p-voice-content-header {
+  
+	&__btn-container {
+		display: none;
+	}
+
+	&__title {
+    font-style: italic;
+		margin: 20px 0;
+	}
+
+}
+
+.p-voice-container .p-voice-content-header__btn-container {
+	display: block;
+}

@@ -1,0 +1,33 @@
+.p-label {
+	background-color: #888;
+	color: #FFF;
+	padding: 4px 7px;
+	margin-right: 8px;
+
+}
+
+.label-m {
+  padding-left: 71px;
+  position: relative;
+  
+  &:after {
+    background: url(../images/img-home-model-m-label.png) center center no-repeat;
+    content: '';
+    display: inline-block;
+    height: 20px;
+    margin: 0 0 0 20px;
+    position: relative;
+    vertical-align: middle;
+    width: 51px;
+    
+    
+  }
+  
+  @media #{$small-down} {
+    padding-left: 0;
+    
+    &:after {
+      display: none;
+    }
+  }
+}

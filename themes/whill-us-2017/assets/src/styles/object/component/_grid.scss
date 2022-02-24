@@ -1,0 +1,152 @@
+$grid-gutter: 20px !default;
+
+
+$colslist: 1, 2, 3, 4, 5, 6, 7, 12, 24;
+
+@mixin grid-unit($num) {
+	@for $i from 1 through $num {
+		&_#{$i}of#{$num} {
+			width: percentage($i/$num);
+			max-width: percentage($i/$num);
+			min-width: percentage($i/$num);
+			flex-basis: percentage($i/$num);
+		}
+
+		&_offset_#{$i}of#{$num} {
+			margin-left: percentage($i/$num);
+		}
+
+		.c-grid_reverse &_offset_#{$i}of#{$num} {
+			margin-left: 0;
+			margin-right: percentage($i/$num);
+		}
+
+	}
+}
+.c-grid {
+	clear: both;
+	margin-left: -1 * $grid-gutter / 2;
+	margin-right: -1 * $grid-gutter / 2;
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+	&__u {
+
+		box-sizing: border-box;
+		width: 100%;
+		position: relative;
+
+		flex-grow: 0;
+		flex-shrink: 0;
+
+		padding: 0 $grid-gutter / 2;
+
+		@each $cols in $colslist {
+			@include grid-unit($cols);
+		}
+
+		@media #{$small-up} {
+			&_small {
+				@each $cols in $colslist {
+					@include grid-unit($cols);
+				}
+				&--order {
+					order: 1;
+				}
+			}
+		}
+
+		@media #{$medium-up} {
+			&_medium {
+				@each $cols in $colslist {
+					@include grid-unit($cols);
+				}
+				&--order {
+					order: 1;
+				}
+			}
+		}
+
+		@media #{$large-up} {
+			&_large {
+				@each $cols in $colslist {
+					@include grid-unit($cols);
+				}
+				&--order {
+					order: 1;
+				}
+			}
+		}
+
+		@media #{$xlarge-up} {
+			&_xlarge {
+				@each $cols in $colslist {
+					@include grid-unit($cols);
+				}
+				&--order {
+					order: 1;
+				}
+			}
+		}
+	}
+  
+  &_compact {
+    padding: 0 $grid-gutter / 4;
+  }
+  
+  &_row {
+    margin-bottom: 15px;
+  }
+
+	&_center {
+		align-items: center;
+	}
+
+	&_center > &__u {
+		//display: flex;
+		//align-items: center;
+	}
+
+	&_bottom {
+		align-items: flex-end;
+	}
+
+	&_reverse {
+		flex-direction: row-reverse;
+	}
+
+	&_collapse {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	&_collapse > &__u {
+		padding: 0;
+	}
+
+	&_tight {
+		margin-left: -3px;
+		margin-right: -3px;
+	}
+
+	&_tight > &__u {
+		padding: 0 3px;
+	}
+	@media #{$large-up} {
+		&_loose {
+			margin-left: -40px;
+			margin-right: -40px;
+		}
+
+		&_loose > &__u {
+			padding: 0 40px;
+		}
+	}
+
+
+
+
+}
+

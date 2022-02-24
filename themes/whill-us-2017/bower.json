@@ -1,0 +1,20 @@
+{
+  "name": "whill-us",
+  "version": "0.0.0",
+  "authors": [
+    "GeeksForLess Inc. <info@geeksforless.com>"
+  ],
+  "license": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-bridget": "~1.1.0",
+    "jquery.mb.ytplayer": "~2.9.4",
+    "swipebox": "~1.4.1"
+  }
+}

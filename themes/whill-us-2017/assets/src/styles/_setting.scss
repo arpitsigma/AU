@@ -1,0 +1,63 @@
+//
+$line-height: 1.6;
+
+// Color
+$color-highlight: #FFF;
+$color-primary: #0075b8;
+$color-secondary: #4c4c4c;
+$color-control-panel: #b0b0b1;
+$color-footer-links: #e6e6e6;
+$background-color: #f7f7f7;
+$background-submenu: #666;
+
+// Bands
+$color-band-highlight-background: #FFF;
+$color-band-tint:                 #FFF;
+$color-band-tint-background:      #777;
+$color-band-dark:                 #fff;
+$color-band-dark-background:      #4c4c4c;
+$color-band-primary:              #FFF;
+$color-band-primary-background:   $color-primary;
+$color-band-footer-background:    $background-submenu;
+
+
+// Boxes
+$container-max-width: 1600px;
+$container-gutter-small: 15px;
+$container-gutter: 20px;
+$container-gutter-medium-up: 30px;
+
+$main-max-width: 1000px;
+$page-header-max-width: 1600px;
+$page-content-max-width: 980px;
+
+$grid-gutter: 30px;
+
+
+// Media Queries
+$screen-small-min: 567px;
+$screen-medium-min: 768px;
+$screen-large-min: 1000px;
+$screen-xlarge-min: 1400px;
+
+$screen-small-max: $screen-medium-min - 1px;
+$screen-medium-max: $screen-large-min - 1px;
+$screen-large-max: $screen-xlarge-min - 1px;
+
+$screen: "only screen" !default;
+
+$small-up: "#{$screen} and (min-width:#{$screen-small-min})" !default;
+$small-only: "#{$screen} and (min-width:#{$screen-small-min}) and (max-width:#{$screen-small-max})" !default;
+$small-down: "#{$screen} and (max-width:#{$screen-small-max})" !default;
+
+$medium-up: "#{$screen} and (min-width:#{$screen-medium-min})" !default;
+$medium-only: "#{$screen} and (min-width:#{$screen-medium-min}) and (max-width:#{$screen-medium-max})" !default;
+$medium-down: "#{$screen} and (max-width:#{$screen-medium-max})" !default;
+
+$large-up: "#{$screen} and (min-width:#{$screen-large-min})" !default;
+$large-only: "#{$screen} and (min-width:#{$screen-large-min}) and (max-width:#{$screen-large-max})" !default;
+$large-down: "#{$screen} and (max-width:#{$screen-large-max})" !default;
+
+$xlarge-up: "#{$screen} and (min-width:#{$screen-xlarge-min})" !default;
+$xlarge-only: "#{$screen} and (min-width:#{$screen-xlarge-min})" !default;
+

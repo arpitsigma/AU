@@ -1,0 +1,26 @@
+.p-contact-section {
+	background-color: #fff;
+	margin-bottom: 1em;
+	padding: 20px 30px;
+
+	&__title {
+		margin: 0;
+		position: relative;
+		padding-right: 2em;
+
+		&::after {
+			content: '\f105';
+			//@include fa();
+			content: '';
+			position: absolute;
+			font-size: 2em;
+			height: 16px;
+			width: 16px;
+			border: 2px solid #999;
+			border-width: 0 2px 2px 0;
+			right: 0;
+			top: 50%;
+			transform: translateY(-50%) rotateZ(-45deg);
+		}
+	}
+}

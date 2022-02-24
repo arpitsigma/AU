@@ -1,0 +1,75 @@
+ .store_locator_fax{display:none;} .store_locator_distance{display:none;} .store_locator_mobile{display:none;} .store_locator_visit_website{display:none !important;} .store_locator_write_email{display:none !important;} .store_locator_show_on_map{display:none !important;} .store_locator_visit_store{display:none !important;} .store_locator_image{display:none !important;} .store_locator_loading{background-color:#FFFFFF;opacity: 0.8;} .store_locator_loading i{color:#000000;} .gm-style-iw, .store_locator_infowindow{max-width: 350px !important; width: 100% !important; max-height: 400px; white-space: nowrap; overflow: auto;}#store_locator_embedded_search {
+    margin-bottom: 30px;
+}
+#store_locator_find_stores_button {
+    background: #0075b8;
+    color: #fff;
+    font-weight: 500;
+    padding: 7px 4px 4px 4px;
+    border-radius: 5px;
+    border: unset;
+}
+#store_locator_embedded_search #store_locator_search_box {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0;
+}
+#store_locator_embedded_search #store_locator_search_box .store-locator-row {
+    margin: unset;
+    display: inline-block;
+    width: 49%;
+}
+#store_locator_embedded_search #store_locator_search_box .store-locator-row .store-locator-col-12 {
+    padding: 0 0;
+}
+#store_locator_embedded_search #store_locator_search_box .store-locator-row .store_locator_address_field {
+    border: 1px solid #666;
+    border-radius: 5px;
+}
+
+#store_locator { padding: 0; margin: 15px auto; }
+#store_locator > .store-locator-row {
+    margin: 0 15px;
+}
+#store_locator > .store-locator-row > div#store_locator_sidebar {
+    padding-left: 0;
+}
+#store_locator > .store-locator-row > div#store_locator_main {
+    padding-right: 0;
+}
+.store_locator_actions .btn.store_locator_get_direction, .store_locator_actions .btn.store_locator_call_now {
+    background: #0075b8;
+    color: #fff;
+    padding: 5px;
+    display: inline-block;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.store_locator_infowindow > .store_locator_details .store_locator_actions .btn.store_locator_get_direction, .store_locator_infowindow > .store_locator_details .store_locator_actions .btn.store_locator_call_now {
+    width: 50%;
+}
+.store_locator_result_list_item .store_locator_details > .store_locator_actions .btn.store_locator_get_direction, .store_locator_result_list_item .store_locator_details > .store_locator_actions .btn.store_locator_call_now {
+    width: 48%;
+    padding: 7px 5px 5px 5px;
+}
+#store_locator_filter_content .store_locator_filter_radius {
+    width: 100%;
+    background-image: linear-gradient(
+45deg
+, transparent 50%, gray 50%), linear-gradient(
+135deg
+, gray 50%, transparent 50%), radial-gradient(#fff 70%, transparent 72%);
+    background-position: calc(100% - 20px) calc(1em + 2px), calc(100% - 15px) calc(1em + 2px), calc(100% - .5em) .5em;
+    background-size: 5px 5px, 5px 5px, 1.5em 1.5em;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px){
+    #store_locator_embedded_search #store_locator_search_box .store-locator-row {
+        margin: 5px;
+        display: block;
+        width: 100%;
+    }
+    #store_locator > .store-locator-row > div#store_locator_sidebar { padding-left: 15px; }
+    #store_locator > .store-locator-row > div#store_locator_main { padding-right: 15px; }
+}				

@@ -1,0 +1,12 @@
+.p-section-title {
+	margin: 0;
+	text-align: center;
+	color: $color-primary;
+  font-family: "FF-DIN-Regular", Verdana, Tahoma;
+  font-size: 2rem;
+	font-weight: 300;
+  
+  @media #{$small-up} {
+    font-size: 3.6rem;
+  }
+}

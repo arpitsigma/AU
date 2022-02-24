@@ -1,0 +1,74 @@
+$button-width: 44px;
+$button-height: 38px;
+$bar-thickness: 2px;
+$button-pad: 10px;
+$button-trans-delay: 0.2s;
+
+.c-menu-btn {
+	background-color: transparent;
+	display: block;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	width: $button-width;
+	height: $button-height;
+	font-size: 0;
+	text-indent: -9999px;
+	appearance: none;
+	box-shadow: none;
+	border-radius: 0;
+	border: none;
+	cursor: pointer;
+	&:focus {
+		outline: none;
+	}
+	span {
+		display: block;
+		position: absolute;
+		top: ($button-height / 2) - ($bar-thickness / 2);
+		left: $button-pad;
+		right: $button-pad;
+		height: $bar-thickness;
+		background-color: #999;
+		transition: background 0s $button-trans-delay;
+		&::before, &::after {
+			position: absolute;
+			display: block;
+			left: 0;
+			width: 100%;
+			height: $bar-thickness;
+			background-color: #999;
+			content: "";
+			transition-duration: $button-trans-delay, $button-trans-delay;
+			transition-delay: $button-trans-delay, 0s;
+		}
+		&::before {
+			top: -(($button-height / 2) - ($bar-thickness / 2) - $button-pad);
+			transition-property: top, transform;
+		}
+		&::after {
+			bottom: -(($button-height / 2) - ($bar-thickness / 2) - $button-pad);
+			transition-property: bottom, transform;
+		}
+	}
+
+	&.is-active,
+	&.is-open {
+		span {
+			background: none;
+			&::before {
+				top: 0;
+				transform: rotate(45deg);
+			}
+			&::after {
+				bottom: 0;
+				transform: rotate(-45deg);
+			}
+			&::before, &::after {
+				transition-delay: 0s, $button-trans-delay;
+			}
+		}
+	}
+
+}

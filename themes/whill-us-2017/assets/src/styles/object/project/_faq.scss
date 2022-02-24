@@ -1,0 +1,68 @@
+.p-faq {
+	margin-bottom: 1em;
+  
+  .title {
+    color: #0075b8;
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin: 45px 0 -10px;
+    text-align: center;
+    text-transform: capitalize;
+    
+    @media #{$small-up} {
+      font-size: 2.8rem;
+    }
+  }
+  
+	&__question {
+
+		position: relative;
+		overflow: hidden;
+		margin: 0;
+		padding: 20px 20px 20px 60px;
+		text-align: center;
+		background-color: #fff;
+		border-radius: 4px;
+		font-weight: 300;
+		cursor: pointer;
+    
+    @media #{$small-up} {
+      font-size: 2.4rem;
+      padding: 30px 30px 30px 70px;
+    }
+
+		&:before {
+      border-bottom: 1px solid #828282;
+      border-left: 1px solid #828282;
+      content: '';
+			position: absolute;
+			left: 25px;
+			top: 50%;
+			transform: translateY(-50%) rotate(-45deg);
+			transition: transform 200ms ease-out 0s;
+      height: 14px;
+      width: 14px;
+      
+      @media #{$small-up} {
+        left: 35px;
+      }
+		}
+	}
+
+	&__question.is-open {
+		&:before {
+			transform: translateY(-50%) rotate(135deg);
+		}
+
+	}
+
+	&__answer {
+		height: 0;
+		overflow: hidden;
+		transition: height 200ms ease-out 0s;
+
+		&.is-open {
+			height: auto;
+		}
+	}
+}

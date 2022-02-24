@@ -1,0 +1,73 @@
+.p-tooltip {
+  background: #e5e5e5;
+  border-radius: 10px;
+  color: #666;
+  margin: 0;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  
+  &:after {
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #e5e5e5;
+    bottom: -20px;
+    box-sizing: border-box;
+    content: '';
+    left: 50%;
+    height: 20px;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 20px;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  .line-1 {
+    font-size: 3rem;
+  }
+  
+  .line-2 {
+    font-size: 2.2rem;
+    line-height: 2.9rem;
+  }
+  
+  .line-3 {
+    font-size: 1.8rem;
+  }
+  
+  .line-4 {
+    font-size: 1.5rem;
+  }
+  
+  &-wrapper {
+    bottom: 100%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 100%;
+    
+    @media #{$medium-up} {
+      width: 600px;
+    }
+  }
+  
+  .close {
+    background: url("../images/close-tooltip.png") no-repeat center;
+    background-size: cover;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    text-indent: -9999px;
+    top: 10px;
+    width: 30px;
+  }
+}
+
+#tinymce .p-tooltip-wrapper {
+  position: relative;
+}

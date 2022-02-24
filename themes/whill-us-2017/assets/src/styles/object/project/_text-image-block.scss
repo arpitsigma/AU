@@ -1,0 +1,75 @@
+.p-text-image-block {
+	position: relative;
+	display: block;
+	color: #FFF;
+
+	img {
+		width: 100%;
+		margin: 0;
+
+	}
+
+	&__play-btn {
+
+		background-color: #25231f;
+		padding: 10px;
+		width: 70px;
+		height: 70px;
+
+		@media #{$medium-up} {
+			width: 100px;
+			height: 100px;
+		}
+		color: #beb7b7;
+		position: absolute;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+
+		&::before {
+			content: "\f148";
+			@include dashicons();
+			transform: rotateY(180deg);
+			font-size: 4.4rem;
+			@media #{$medium-up} {
+				font-size: 7rem;
+			}
+			display: block;
+		}
+
+		&::after {
+			content: "PLAY MOVIE";
+			display: block;
+			font-size: 0.7em;
+			@media #{$medium-up} {
+				font-size: 1em;
+			}
+		}
+	}
+
+	&__text {
+		font-size: 1.8rem;
+
+		@media #{$small-up} {
+			font-size: 2rem;
+		}
+
+		@media #{$medium-up} {
+			font-size: 3rem;
+		}
+		position: absolute;
+
+		width: 100%;
+    /*font-family:'DIN Next W01',sans-serif;*/
+    font-family: "FF-DIN-Regular", Verdana, Tahoma;
+		font-weight: 300;
+		top: 50%;
+		text-align: center;
+		transform: translateY(-50%);
+	}
+}

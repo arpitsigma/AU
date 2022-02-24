@@ -1,0 +1,60 @@
+.u-box-reset {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.u-img-vp-half {
+	max-width: 100vw !important;
+	margin: 0 -20px -1em  !important;
+	@media #{$medium-up} {
+		position: relative;
+
+		top: 14em;
+		max-width: 50vw !important;
+	}
+
+	@media #{$large-up} {
+		top: 9em;
+	}
+
+}
+
+
+
+.u-row-viewport {
+	position: relative;
+	top: 60px;
+	left: 50%;
+	transform: translateX( -50% );
+	width: 100vw;
+	max-width: 2000px;
+	margin: 5em auto -2em !important;
+
+	@media #{$small-up} {
+		margin: 5em auto !important;
+	}
+
+
+	> .wp-video,
+	> img,
+	> video,
+	> iframe,
+	> [id] > * {
+		position: relative;
+		top: -60px;
+	}
+}
+
+
+.screen-reader-text {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+}
+

@@ -1,0 +1,9 @@
+.c-full-row {
+  /*width: 100vw;*/
+  /*width: 99vw;*/
+  width: calc(100vw - 17px);
+	/*max-width: $container-max-width;*/
+	transform: translateX(-50%);
+	margin-left: 50%;
+
+}

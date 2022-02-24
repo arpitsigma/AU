@@ -1,0 +1,27 @@
+.p-paginate {
+	.page-numbers {
+		height: 2em;
+		line-height: 2;
+		width: 2em;
+		display: inline-block;
+	}
+
+	.prev,
+	.next {
+		width: auto;
+	}
+
+	.prev {
+		float: left;
+	}
+
+	.next {
+		float: right;
+	}
+
+	.current {
+		background-color: $color-primary;
+		color: #FFF;
+
+	}
+}

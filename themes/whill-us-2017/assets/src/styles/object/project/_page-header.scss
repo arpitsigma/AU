@@ -1,0 +1,343 @@
+.p-page-header {
+	overflow: hidden;
+	position: relative;
+	box-sizing: border-box;
+	display: table;
+	width: 100%;
+	max-width: $page-header-max-width;
+	margin: 0 auto;
+	color: #FFF;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	&::before {
+		content: "";
+		display: table-cell;
+		padding-top: 54%;
+		width: 0;
+		max-width: 0;
+	}
+
+	&_no-image::before {
+		padding-top: 180px;
+	}
+  
+  &_with-content {
+    /*display: block;*/
+  
+    &::before {
+      padding-top: 44%;
+    }
+
+    @media #{$large-up} {
+      display: table;
+    }
+    
+    .p-page-header__container {
+      /*display: block;*/
+      display: table-cell;
+      
+      @media #{$large-up} {
+        display: table-cell;
+      }
+    }
+  }
+  
+  &_about-company {
+    
+    &::before {
+      padding-top: 100%;
+      
+      @media #{$large-up} {
+        padding-top: 70%;
+      }
+      
+      @media #{$xlarge-up} {
+        padding-top: 44%;
+      }
+    }
+    
+    .p-page-header__container {
+      vertical-align: top;
+    }
+    
+    .p-page-header__title {
+      color: #272727;
+      margin-top: 1em;
+      
+      @media #{$large-up} {
+        margin-top: 1em;
+      }
+    }
+    
+    .p-page-header__description {
+      margin: 20px auto 0;
+      
+      @media #{$medium-up} {
+        font-size: 2.4rem;
+        line-height: 4.2rem;
+      }
+      
+    }
+  }
+  
+  &_personal-evs,
+  &_personal-electric-vehicle {
+    
+    &::before {
+      /*padding-top: 100%;
+      
+      @media #{$large-up} {
+        padding-top: 70%;
+      }
+      
+      @media #{$xlarge-up} {
+        padding-top: 44%;
+      }*/
+    }
+  }
+  
+  &_support {
+    .p-page-header__title {
+      line-height: 1;
+      
+      @media #{$medium-up} {
+        line-height: 1.6;
+      }
+    }
+    
+    .p-page-header__description {
+      line-height: 1.8rem;
+      margin: 20px auto 0;
+      
+      @media #{$medium-up} {
+        font-size: 1.9rem;
+        line-height: 2.7rem;
+      }
+      
+    }
+  }
+  
+  &_model-m,
+  &_shop-model-m {
+    &::before {
+      padding-top: 100%;
+      
+      @media #{$large-up} {
+        padding-top: 70%;
+      }
+      
+      @media #{$xlarge-up} {
+        padding-top: 44%;
+      }
+    }
+  }
+  
+  &_model-a,
+  &_model-a-personal-mobility-device-personal-ev,
+  &_model-ci {
+    &::before {
+      padding-top: 100%;
+      
+      @media #{$large-up} {
+        padding-top: 70%;
+      }
+      
+      @media #{$xlarge-up} {
+        padding-top: 44%; 
+      }
+    }
+  }
+  
+  &_model-a,
+  &_model-m,
+  &_model-a-personal-mobility-device-personal-ev,
+  &_shop-model-m,
+  &_model-ci {
+    color: #666;
+    
+    .p-page-header__container {
+      padding: 20px 10px;
+      vertical-align: top;
+    }
+    
+    .p-page-header__text {
+      @media #{$large-up} {
+        margin-top: 50px;
+      }
+    }
+    
+    .p-page-header__title {
+      line-height: 1;
+      
+      @media #{$medium-up} {
+        line-height: 1.6;
+      }
+    }
+    
+    .p-page-header__description {
+      
+      @media #{$medium-up} {
+        font-size: 2.6rem;
+        line-height: 4.5rem;
+      }
+      
+    }
+  }
+  
+  &_clinicians {
+    .p-page-header__title {
+      
+      @media #{$large-up} {
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+      
+      @media #{$xlarge-up} {
+        padding-left: 20%;
+        padding-right: 20%;
+      }
+      
+    }
+  }
+  
+  &_personal-evs,
+  &_personal-electric-vehicle {
+    
+    .p-page-header__container {
+      padding: 20px 10px;
+    }
+    .p-page-header__title {
+      margin-top: -15vmin;
+    }
+    
+  }
+
+	&__container {
+		display: table-cell;
+		vertical-align: middle;
+		padding: 20px;
+	}
+
+	&__text {
+		align-self: center;
+	}
+
+
+	&__title {
+		margin: 0;
+		text-align: center;
+		align-self: center;
+		font-size: 2.4rem;
+    font-family: "FF-DIN-Light", Verdana, Tahoma;
+    
+    @media #{$small-up} {
+			font-size: 3rem;
+		}
+
+		@media #{$medium-up} {
+			font-size: 4rem;
+		}
+    
+    @media #{$xlarge-up} {
+			font-size: 4.8rem;
+		}
+    
+    &_faq {
+      position: relative;
+      
+      &:before {
+        background: url(../images/title-faq.png) 0 0 no-repeat;
+        background-size: cover;
+        content: '';
+        display: inline-block;
+        height: 52px;
+        left: 50%;
+        margin-left: -90px;
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 52px;
+        
+        @media #{$large-up} {
+          height: 104px;
+          margin-left: -140px;
+          width: 104px;
+        }
+      }
+    }
+	}
+  
+  h2 {
+    font-family: "FF-DIN-Light", Verdana, Tahoma;
+  }
+
+	&__description {
+		text-align: center;
+		font-weight: 200;
+		font-size: 1.6rem;
+    font-family: "FF-DIN-Regular", Verdana, Tahoma;
+    font-family: "FF-DIN-Light", Verdana, Tahoma;
+		margin: auto;
+    
+		@media #{$small-up} {
+			font-size: 2rem;
+		}
+
+		@media #{$medium-up} {
+			font-size: 3rem;
+		}
+
+
+		p {
+			margin: 0;
+		}
+
+		p + p {
+			margin-top: 1em;
+		}
+
+		a {
+			color: inherit;
+			border-bottom: 1px solid currentColor;
+
+			&:hover {
+				border-bottom: 1px solid currentColor;
+			}
+		}
+	}
+
+	&__badge {
+		margin: 10px 20px;
+		text-align: center;
+
+		@media #{$medium-up} {
+			text-align: left;
+		}
+
+		@media #{$large-up} {
+			position: absolute;
+			top: 60px;
+		}
+
+
+	}
+
+	&__sub-navigation {
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+
+		&.is-fixed {
+			bottom: auto;
+			top:0;
+			position: fixed;
+		}
+
+		&.is-hidden {
+			visibility: hidden;
+		}
+	}
+}

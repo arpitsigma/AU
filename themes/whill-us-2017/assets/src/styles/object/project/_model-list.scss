@@ -1,0 +1,163 @@
+.p-model-div {
+  margin:auto 0;
+
+  .p-list-div {
+    color: #666;
+    margin-top: 3%;
+
+    .p-list-background {
+      border-radius: 10px;
+      background-color:#f5f5f5;
+      width:93%;
+      margin-left:2.5%;
+      
+      .p-list-inside {
+        width: 94%;
+        margin-left: 3%;
+        min-height: 125px;
+        
+        .p-list-middle {
+          margin:auto 0;
+          
+          .p-list-main-title {
+            font-size: 4vw;
+            margin-bottom: 0px;
+            
+            @media #{$medium-up} {
+              font-size: 2.3vw;
+            }
+            
+            @media #{$xlarge-up} {
+              font-size: 2vw;
+            }
+          }
+          
+          /*
+          .p-list-sub-title {
+            font-size: 1.2rem;
+            margin-top:0px;
+            
+            a {
+              text-decoration: underline;
+              
+              &:hover {
+                text-decoration: none;
+              }
+            }
+          }
+          */
+          
+          /*
+          .c-btn {
+            border-radius: 10px;
+            font-size: 2.4rem;
+            padding: 13px 22px;
+          }
+          */
+          
+          &.right-arrow {
+            background: url("../images/arrow-right.png") 0 center no-repeat;
+            height: 15px;
+            width: 7px;
+            
+            @media #{$large-up} {
+              height: 31px;
+              width: 17px;
+            }
+          }
+          
+        }
+      }
+    }
+  }
+  .p-list-button {
+    /*font-size: 1.4rem;
+    border-radius: 6px;*/
+  }
+  .p-list-bracket {
+    font-size:2rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  /*
+  .p-list-button {
+    font-size: 1.8rem!important;
+  }
+  .p-list-round-button {
+    font-size: 2.4rem!important;
+  }
+  .p-list-bracket {
+    font-size:2.5rem!important;
+  }
+  */
+  /*
+  .p-list-main-title {
+    font-size:3rem!important;
+    line-height: 1.3;
+  }
+  .p-list-sub-title {
+    font-size: 2rem!important;
+    line-height: 1.2;
+  }
+  */
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*
+#modelRadioBtn {
+  input[type="radio"] {
+    -webkit-appearance: none;
+    position: relative;
+    display: inline-block;
+    width:100%;
+    padding-top:100%;
+  }
+  input[type="radio"]:checked:before{
+    content:"";
+    position: absolute;
+    display: inline-block;
+    width:100%;
+    padding-top:100%;
+    top: 0px;
+      border-radius: 8px;
+    background-color:rgba(0, 133, 210,0.5);
+  }
+  #modelARadio{
+		background-image: url("../images/btn_modelA_sp.png");
+   	background-size: cover;
+    width:95%;
+    padding-top:95%;
+		@media #{$large-up} {
+			background-image: url("../images/btn_modelA.png");
+		}
+  }
+  #modelMRadio{
+		background-image: url("../images/btn_modelM_sp.png");
+   	background-size: cover;
+    width:95%;
+    padding-top:95%;
+    margin-left: 5%;
+		@media #{$large-up} {
+			background-image: url("../images/btn_modelM.png");
+		}
+  }
+}
+*/
+
+.width-100 {
+  width: 100%!important;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.p-list-round-button {
+  /*font-size: 1.4rem;
+  border-radius: 5px;
+  padding: 13px;*/
+}

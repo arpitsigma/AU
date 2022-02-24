@@ -1,0 +1,43 @@
+.p-large-news {
+	padding: 20px 0;
+	border-top: 1px solid #DFDFDF;
+  font-size: 1.2rem;
+	overflow: hidden;
+  /*text-align: justify;*/
+  
+  @media #{$medium-up} {
+		font-size: 1.6rem;
+    text-align: left;
+	}
+
+	@media #{$large-up} {
+		padding: 40px 0;
+	}
+
+	&:first-of-type {
+		border-top: none;
+	}
+
+
+	&__thumbnail {
+    margin: 0 0 15px;
+
+		@media #{$medium-up} {
+			width: 50%;
+			float: right;
+      margin: 0 0 15px 60px;
+		}
+
+	}
+
+	&__title {
+		font-size: 1.8rem;
+    line-height: 1.2;
+		margin: 0 0 1rem;
+    
+    @media #{$medium-up} {
+      font-size: 2rem;
+      line-height: 1.6;
+    }
+	}
+}

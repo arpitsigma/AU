@@ -1,0 +1,83 @@
+.cta-block {
+  background: rgba(255,255,255,0.8);
+  bottom: 0;
+  border-top: 1px solid #ebebeb;
+  /*font-size: 0;*/
+  display: block;
+  /*line-height: 0;*/
+  left: 0;
+  position: fixed;
+  text-align: center;
+  right: 0;
+  
+  @media #{$medium-down} {
+    padding: 0.6rem 0;
+  }
+  
+  @media #{$large-up} {
+    padding: 1rem 0;
+  }
+  
+  .tooltip {
+    /*background: #666;*/
+    background: url(../images/bg-cta.png) center center no-repeat;
+    background-size: contain;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    
+    @media #{$medium-down} {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+      height: 2.5rem;
+      margin: 0 0.75rem 0 0;
+      padding: 0.5rem 1rem;
+    }
+    
+    @media #{$large-up} {
+      font-size: 1.8rem;
+      height: 3.9rem;
+      line-height: 2.9rem;
+      margin: 0 1.5rem 0 0;
+      min-width: 27.5rem;
+      padding: 0.5rem 3rem;
+    }
+    
+    &:after {
+      
+    }
+  }
+  
+  .c-btn {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 0;
+    
+    @media #{$medium-down} {
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+      height: 2.5rem;
+      padding: 0.5rem 1rem;
+    }
+    
+    @media #{$large-up} {
+      font-size: 1.8rem;
+      height: 3.9rem;
+      line-height: 2.9rem;
+      padding: 0.5rem 3rem;
+    }
+    
+    ~.c-btn {
+      
+      @media #{$medium-down} {
+        margin: 0 0 0 0.75rem;
+      }
+      
+      @media #{$large-up} {
+        margin: 0 0 0 1.5rem;
+      }
+    }
+  }
+}

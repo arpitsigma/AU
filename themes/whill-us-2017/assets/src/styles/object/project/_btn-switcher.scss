@@ -1,0 +1,18 @@
+.btn-switcher {
+  margin: 0 auto 20px;
+  
+  .c-btn {
+    font-weight: 300;
+  }
+  
+  .left-part {
+    border-radius: 36px 0 0 36px !important;
+  }
+  .right-part {
+    border-radius: 0 36px 36px 0 !important;
+  }
+  
+  @media #{$medium-up} {
+    margin: 0 auto 60px;
+  }
+}

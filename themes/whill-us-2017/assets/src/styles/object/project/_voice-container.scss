@@ -1,0 +1,20 @@
+.p-voice-container {
+	z-index: 3;
+	position: fixed;
+	left: 0;
+	top: 0;
+	overflow: auto;
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	transform: translateX(100vw);
+	background-color: $background-color;
+
+	&.is-transition {
+		transition: transform 0.3s ease-out 0s;
+	}
+
+	&.is-active {
+		transform: translateX(0vw);
+	}
+}

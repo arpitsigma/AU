@@ -1,0 +1,200 @@
+@mixin btn() {
+	display: inline-block;
+	/*font-family:'DIN Next W01',sans-serif;*/
+  font-family: "FF-DIN-Regular", Verdana, Tahoma;
+  font-size: 1.4rem;
+	font-weight: 400;
+	padding: 10px;
+	margin-bottom: 0;
+	text-decoration: none;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	touch-action: manipulation;
+	cursor: pointer;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+  border-radius: 6px;
+  
+  @media #{$small-up} {
+    font-size: 1.6rem;
+  }
+  
+  @media #{$medium-up} {
+    font-size: 1.8rem;
+    padding: 15px 20px;
+  }
+  
+  @media #{$large-up} {
+    font-size: 2rem;
+  }
+  
+  @media #{$xlarge-up} {
+    font-size: 2.2rem;
+  }
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&_block {
+		display: block;
+	}
+  
+}
+
+.c-btn {
+
+	@include btn();
+  
+  box-sizing: border-box;
+  max-width: 100%;
+  
+  @media #{$small-down} {
+    font-size: 1.3rem;
+    line-height: 1.307692;
+    min-width: 100px;
+    padding: 7px 13px;
+  }
+  
+  @media #{$medium-only} {
+    font-size: 2rem;
+    min-width: 100px;
+    padding: 13px;
+  }
+  
+  @media #{$large-up} {
+    font-size: 2.6rem;
+    min-width: 270px;
+    padding: 7px 13px;
+  }
+  
+  &.p-subscribe__submit {
+    border-radius: 4px;
+    font-size: inherit;
+    height: 40px;
+    line-height: 28px;
+    min-width: 0;
+    padding: 6px 18px;
+    
+    @media #{$small-down} {
+    }
+    
+    @media #{$medium-only} {
+    }
+    
+    @media #{$large-up} {
+    }
+  }
+  
+	&_primary {
+		background-color: $color-primary;
+		color: #FFF;
+
+		&:hover {
+			background-color: lighten($color-primary, 5%);
+		}
+	}
+
+	&_secondary {
+		background-color: $color-secondary;
+		color: #FFF;
+    min-width: 0;
+
+		&:hover {
+			background-color: lighten($color-secondary, 5%);
+		}
+	}
+  
+  &_tint {
+		background-color: $color-band-tint-background;
+		color: #FFF;
+
+		&:hover {
+			background-color: lighten($color-band-tint-background, 5%);
+		}
+	}
+  
+  &_light {
+		background-color: $background-color;
+		color: $color-primary;
+
+		&:hover {
+			background-color: lighten($background-color, 5%);
+		}
+	}
+  
+	&_facebook {
+		background-color: #3b5998;
+		color: #FFF;
+
+		&:hover {
+			background-color: lighten(#3b5998, 5%);
+		}
+	}
+
+	&_twitter {
+		background-color: #55acee;
+		color: #FFF;
+
+		&:hover {
+			background-color: lighten(#55acee, 5%);
+		}
+	}
+  
+  &.fancybox-pdf,
+  &.vp-s  {
+    font-size: 2rem;
+    padding: 15px 22px;
+    min-width: 0;
+  }
+  
+  &_multilines {
+    line-height: 21px;
+    padding: 10px 22px;
+    white-space: normal;
+    
+    &.fancybox-pdf {
+      padding: 10px 22px;
+    }
+  }
+  
+  &_summary {
+    margin-top: 65px;
+  }
+  
+  img {
+    margin-bottom: 10px;
+  }
+  
+  &_small {
+    font-size: 1.4rem;
+    min-width: 0;
+    padding: 15px 20px;
+    
+    @media #{$small-down} {
+      padding: 7px 13px;
+    }
+    
+    @media #{$medium-up} {
+      font-size: 1.8rem;
+    }
+  }
+  
+  &_large {
+    
+    
+    @media #{$medium-up} {
+      border-radius: 6px;
+      font-size: 1.4rem;
+      min-width: 0;
+      padding: 15px 20px;
+    }
+    
+    @media #{$large-up} {
+      font-size: 2rem;
+    }
+  }
+  
+}

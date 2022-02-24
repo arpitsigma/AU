@@ -1,0 +1,46 @@
+.masonry_post_gallery {
+  .masonry_brick_a {
+    border-radius: 10px;
+    height: 420px;
+    overflow: hidden;
+  }
+  .masonry_brick_img {
+    height: auto;
+    margin: 90px auto 0;
+  }
+  .cactus_masonry_databox,
+  .cactus_masonry_databox:not(#target_IE8_only)  {
+    background: transparent;
+  }
+  .cactus_masonry_databox  {
+    color: #666;
+    line-height: 2.5rem;
+    padding: 20px 30px 30px;
+    top: 0;
+    
+    .cm_title {
+      font-size: 2rem;
+      height: 50px;
+      overflow: hidden;
+    }
+    .cm_exerpt {
+      background: #fff;
+      border: 30px solid #fff;
+      bottom: 0;
+      font-size: 1.4rem;
+      height: 100px;
+      left: 0;
+      overflow: hidden;
+      position: absolute;
+      right: 0;
+    }
+  }
+  .masonry_brick {
+    @media #{$medium-down} {
+      width: 50% !important;
+    }
+    @media #{$small-down} {
+      width: 100% !important;
+    }
+  }
+}

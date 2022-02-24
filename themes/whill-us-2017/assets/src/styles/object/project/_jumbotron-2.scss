@@ -1,0 +1,36 @@
+.almost-jumbotron {
+  height: 350px;
+	position: relative;
+  
+  @media #{$small-up} {
+    height: 500px;
+  }
+
+  @media #{$xlarge-up} {
+    height: 600px;
+  }
+  
+  .p-jumbotron__item {
+    color: #fff;
+    width: 100%;
+    
+    @media #{$large-up} {
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    
+    &.right-side-body {
+      @media #{$small-down} {
+        background-position: 70% center;
+      }
+    }
+    
+    &.left-side-body {
+      @media #{$small-down} {
+        background-position: 25% center;
+      }
+    }
+    
+  }
+}

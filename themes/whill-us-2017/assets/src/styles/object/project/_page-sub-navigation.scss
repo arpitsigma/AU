@@ -1,0 +1,10 @@
+.p-page-sub-navigation {
+	//position: absolute;
+	//width: 100%;
+	//transform: translateY(-100%);
+
+	&.is-hidden {
+		visibility: hidden;
+	}
+
+}

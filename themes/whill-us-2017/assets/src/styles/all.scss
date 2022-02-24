@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+/*
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,600");
+*/
+
+@import "setting";
+@import "mixin";
+
+
+/*
+=============================================
+
+Base
+
+=============================================
+*/
+
+
+@import "../../../node_modules/inuit-normalize/generic.normalize";
+@import "foundation/base";
+
+/*
+=============================================
+
+Layout
+
+=============================================
+*/
+
+//@import "layout/*";
+
+/*
+=============================================
+
+Object
+
+=============================================
+*/
+
+@import "object/component/*";
+//@import "../../../node_modules/swiper/dist/css/swiper.css";
+
+@import "object/project/*";
+
+
+@import "wp";
+@import "tribe-events-calendar";
+
+@import "object/utility/*";
+
+
+body #swipebox-overlay {
+	background-color: rgba(0,0,0,0.6);
+
+	#swipebox-bottom-bar, #swipebox-top-bar {
+		background-color: transparent;
+	}
+}
+.center{
+	text-align:center;
+}
+
+@import "magnific-popup.min";

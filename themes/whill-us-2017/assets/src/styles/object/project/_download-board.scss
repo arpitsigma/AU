@@ -1,0 +1,27 @@
+.download-board {
+  
+  @media #{$small-down} {
+		text-align: center;
+	}
+  
+	@media #{$medium-up} {
+		margin-bottom: -85px;
+	}
+  
+  a {
+    color: #fff;
+  }
+}
+
+.display-sp {
+  display: block!important;
+  @media #{$medium-up} {
+    display: none!important;
+  }
+}
+.display-pc {
+  display: none!important;
+  @media #{$medium-up} {
+    display: block!important;
+  }
+}

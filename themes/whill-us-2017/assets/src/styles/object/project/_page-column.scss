@@ -1,0 +1,28 @@
+.p-page-column {
+	&::after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	@media #{$medium-up} {
+		&__main,
+		&__sub {
+			margin-bottom: 50px;
+			*:first-child {
+				margin-top: 0;
+			}
+		}
+
+		&__main {
+			float: left;
+			width: 45%;
+			clear: left;
+		}
+
+		&__sub {
+			float: right;
+			width: 50%;
+			clear: right;
+		}
+	}
+}

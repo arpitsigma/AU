@@ -1,0 +1,46 @@
+.subscription-popup {
+  background: #efefef url(../images/icon-letter_50x36_blue_opt.png) center 20px no-repeat;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+  overflow: hidden;
+  padding: 70px 20px 20px;
+  position: fixed;
+  right: -350px;
+  text-align: center;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: right 0.5s ease-out 0s;
+  width: 300px;
+  z-index: 1000;
+  
+  &.showed-popup {
+    right: 0;
+  }
+  
+  &.closed-popup {
+    right: -350px;
+  }
+  
+  .close-popup {
+    background: #efefef url(../images/icon-close_20x20_gray_opt.png) center center no-repeat;
+    display: block;
+    font-size: 0;
+    height: 30px;
+    line-height: 0;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 30px;
+  }
+  
+  /*
+  .track-submitting {
+    bottom: 45px;
+    height: 55px;
+    left: 90px;
+    position: absolute;
+    right: 90px;
+  }
+  */
+}

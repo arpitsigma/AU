@@ -1,0 +1,261 @@
+# Translation of Plugins - Advanced WordPress Backgrounds - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Advanced WordPress Backgrounds - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-10-17 15:53:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Advanced WordPress Backgrounds - Stable (latest release)\n"
+
+#: vendors/class-settings-api.php:407
+msgid "Choose Image"
+msgstr "Elegir imagen"
+
+#: vendors/class-settings-api.php:386
+msgid "Choose File"
+msgstr "Elegir el archivo"
+
+#: classes/class-settings.php:180
+msgid "Advanced WordPress Backgrounds Settings"
+msgstr "Ajustes avanzados de fondos de WordPress"
+
+#: classes/class-settings.php:136
+msgid "Disable video"
+msgstr "Desactivar vídeo"
+
+#: classes/class-settings.php:120
+msgid "Disable parallax"
+msgstr "Desactivar parallax"
+
+#: classes/class-settings.php:103
+msgid "PRO"
+msgstr "PRO"
+
+#: classes/class-settings.php:83
+msgid "AWB"
+msgstr "AWB"
+
+#: classes/class-settings.php:82
+msgid "AWB Settings"
+msgstr "Ajustes de AWB"
+
+#. Author URI of the plugin
+msgid "https://nkdev.info"
+msgstr "https://nkdev.info"
+
+#. Author of the plugin
+msgid "nK"
+msgstr "nK"
+
+#. Description of the plugin
+msgid "Parallax, Video, Images Backgrounds"
+msgstr "Parallax, vídeo, fondos de imágenes"
+
+#: classes/class-vc-extend.php:642
+msgid "milliseconds"
+msgstr "milisegundos"
+
+#: classes/class-vc-extend.php:626
+msgid "pixels"
+msgstr "píxeles"
+
+#: classes/class-vc-extend.php:625
+msgid "Size"
+msgstr "Tamaño"
+
+#: classes/class-vc-extend.php:610
+msgid "Enable"
+msgstr "Activar"
+
+#: classes/class-vc-extend.php:597
+msgid "Mouse Parallax"
+msgstr "Parallax de ratón"
+
+#: classes/class-vc-extend.php:565
+msgid "Provide number from -1.0 to 2.0"
+msgstr "Proporciona un número de -1.0 a 2.0"
+
+#: classes/class-vc-extend.php:564 classes/class-vc-extend.php:641
+msgid "Speed"
+msgstr "Velocidad"
+
+#: classes/class-vc-extend.php:548
+msgid "Opacity + Scale"
+msgstr "Opacidad + Escala"
+
+#: classes/class-vc-extend.php:547
+msgid "Opacity + Scroll"
+msgstr "Opacidad + Desplazamiento"
+
+#: classes/class-vc-extend.php:546
+msgid "Opacity"
+msgstr "Opacidad"
+
+#: classes/class-vc-extend.php:545
+msgid "Scale"
+msgstr "Escala"
+
+#: classes/class-vc-extend.php:544
+msgid "Scroll"
+msgstr "Scroll"
+
+#: classes/class-vc-extend.php:543
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: classes/class-vc-extend.php:541
+msgid "Type"
+msgstr "Tipo"
+
+#: classes/class-vc-extend.php:528
+msgid "Parallax"
+msgstr "Parallax"
+
+#: classes/class-vc-extend.php:499
+msgid "Overlay Color"
+msgstr "Color de superposición"
+
+#: classes/class-vc-extend.php:469
+msgid "Play video also when not in viewport."
+msgstr "Reproducir vídeo también cuando no esté en la vista gráfica."
+
+#: classes/class-vc-extend.php:468
+msgid "Always play"
+msgstr "Reproducir siempre"
+
+#: classes/class-vc-extend.php:454
+msgid "End time in seconds when video will be ended"
+msgstr "Tiempo de finalización en segundos cuando se termina el vídeo"
+
+#: classes/class-vc-extend.php:453
+msgid "End Time"
+msgstr "Hora de finalización"
+
+#: classes/class-vc-extend.php:439
+msgid "Start time in seconds when video will be started (this value will be applied also after loop)"
+msgstr "Tiempo de inicio en segundos cuando se reproducirá el vídeo (este valor se aplicará también después del bucle)"
+
+#: classes/class-vc-extend.php:438
+msgid "Start Time"
+msgstr "Hora de inicio"
+
+#: classes/class-vc-extend.php:421 classes/class-vc-extend.php:580
+msgid "Enable on Mobile Devices"
+msgstr "Habilitar en dispositivos móviles"
+
+#: classes/class-vc-extend.php:407
+msgid "OGV"
+msgstr "OGV"
+
+#: classes/class-vc-extend.php:393
+msgid "WEBM"
+msgstr "WEBM"
+
+#: classes/class-vc-extend.php:379
+msgid "MP4"
+msgstr "MP4"
+
+#: classes/class-vc-extend.php:366
+msgid "Video"
+msgstr "Vídeo"
+
+#: classes/class-vc-extend.php:348
+msgid "Supported YouTube and Vimeo URLs"
+msgstr "Compatible con URLs de Youtube y Vimeo"
+
+#: classes/class-vc-extend.php:334
+msgid "Youtube / Vimeo"
+msgstr "Youtube / Vimeo"
+
+#: classes/class-vc-extend.php:316
+msgid "Image position. Example: 50% 50%"
+msgstr "Posición de la imagen. Ejemplo: 50% 50%"
+
+#: classes/class-vc-extend.php:301
+msgid "Pattern"
+msgstr "Patrón"
+
+#: classes/class-vc-extend.php:300
+msgid "Contain"
+msgstr "Contener"
+
+#: classes/class-vc-extend.php:299
+msgid "Cover"
+msgstr "Cubrir"
+
+#: classes/class-vc-extend.php:252
+msgid "Poster Image"
+msgstr "Imagen de póster"
+
+#: classes/class-vc-extend.php:222
+msgid "Stretch"
+msgstr "Expandido"
+
+#: classes/class-vc-extend.php:208
+msgid "Local Video"
+msgstr "Vídeo local"
+
+#: classes/class-vc-extend.php:207
+msgid "YouTube / Vimeo"
+msgstr "YouTube / Vimeo"
+
+#: classes/class-vc-extend.php:206 classes/class-vc-extend.php:239
+msgid "Image"
+msgstr "Imagen"
+
+#: classes/class-vc-extend.php:205 classes/class-vc-extend.php:486
+msgid "Color"
+msgstr "Color"
+
+#: classes/class-vc-extend.php:204
+msgid "None"
+msgstr "Ninguno"
+
+#: classes/class-vc-extend.php:202
+msgid "Background Type"
+msgstr "Tipo de fondo"
+
+#: classes/class-vc-extend.php:179
+msgid "Design Options"
+msgstr "Opciones de diseño"
+
+#: classes/class-vc-extend.php:177
+msgid "CSS"
+msgstr "CSS"
+
+#: classes/class-vc-extend.php:160
+msgid "Custom Classes"
+msgstr "Clases personalizadas"
+
+#. Plugin Name of the plugin
+#: classes/class-vc-extend.php:143
+msgid "Advanced WordPress Backgrounds"
+msgstr "Advanced WordPress Backgrounds"
+
+#: classes/class-settings.php:99 classes/class-vc-extend.php:140
+msgid "General"
+msgstr "General"
+
+#: classes/class-vc-extend.php:132 classes/class-vc-extend.php:135
+msgid "Background [AWB]"
+msgstr "Fondo [AWB]"
+
+#: classes/class-vc-extend.php:81
+msgid "&times;"
+msgstr "&times;"
+
+#: classes/class-vc-extend.php:81
+msgid "Select File"
+msgstr "Selecciona un archivo"
+
+#: classes/class-rest.php:138
+msgid "Image not found."
+msgstr "Imagen no encontrada."
+
+#: classes/class-rest.php:66
+msgid "Provide image ID."
+msgstr "Proporciona la ID de imagen."
